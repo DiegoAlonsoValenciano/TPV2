@@ -1,0 +1,95 @@
+﻿c:\software\programacion\MSVStudio2022\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8004: El directorio Output no termina con una barra diagonal final. Esta instancia de compilación agregará la barra diagonal porque es necesaria para que se pueda evaluar correctamente el directorio Output.
+  BounceOnBorders.cpp
+C:\hlocal\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(51,32): warning C4101: 'e': variable local sin referencia
+  (compilando archivo de origen "src/components/BounceOnBorders.cpp")
+  C:\hlocal\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(51,32):
+  el contexto de creación de instancias de la plantilla (el más antiguo primero) es
+  	C:\hlocal\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(201,34):
+  	Vea la referencia a la creación de una instancia de clase plantilla "SDLUtils::map_access_wrapper<SoundEffect>" que se está compilando
+  	C:\hlocal\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(48,13):
+  	al compilar la función del miembro clase plantilla "T &SDLUtils::map_access_wrapper<T>::at(const std::string &)"
+          with
+          [
+              T=SoundEffect
+          ]
+  		C:\hlocal\TPV2\Practica1\TPV2\TPV2\src\components\BounceOnBorders.cpp(31,48):
+  		vea la primera referencia a “SDLUtils::map_access_wrapper<SoundEffect>::at” en “BounceOnBorders::update”
+  
+  GameInfoMsgs.cpp
+C:\hlocal\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(51,32): warning C4101: 'e': variable local sin referencia
+  (compilando archivo de origen "src/components/GameInfoMsgs.cpp")
+  C:\hlocal\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(51,32):
+  el contexto de creación de instancias de la plantilla (el más antiguo primero) es
+  	C:\hlocal\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(199,30):
+  	Vea la referencia a la creación de una instancia de clase plantilla "SDLUtils::map_access_wrapper<Texture>" que se está compilando
+  	C:\hlocal\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(48,13):
+  	al compilar la función del miembro clase plantilla "T &SDLUtils::map_access_wrapper<T>::at(const std::string &)"
+          with
+          [
+              T=Texture
+          ]
+  		C:\hlocal\TPV2\Practica1\TPV2\TPV2\src\components\GameInfoMsgs.cpp(32,10):
+  		vea la primera referencia a “SDLUtils::map_access_wrapper<Texture>::at” en “GameInfoMsgs::render”
+  
+  GameState.cpp
+C:\hlocal\TPV2\Practica1\TPV2\TPV2\src\components\GameState.cpp(69,28): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+C:\hlocal\TPV2\Practica1\TPV2\TPV2\src\components\GameState.cpp(68,47): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+C:\hlocal\TPV2\Practica1\TPV2\TPV2\src\components\GameState.cpp(79,38): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+C:\hlocal\TPV2\Practica1\TPV2\TPV2\src\components\GameState.cpp(79,16): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+  Image.cpp
+  PaddleAICtrl.cpp
+  PaddleKBCtrl.cpp
+  PaddleMouseCtrl.cpp
+C:\hlocal\TPV2\Practica1\TPV2\TPV2\src\components\PaddleMouseCtrl.cpp(27,31): warning C4244: 'argumento': conversión de 'const _Ty2' a 'float'; posible pérdida de datos
+C:\hlocal\TPV2\Practica1\TPV2\TPV2\src\components\PaddleMouseCtrl.cpp(27,31): warning C4244:         with
+C:\hlocal\TPV2\Practica1\TPV2\TPV2\src\components\PaddleMouseCtrl.cpp(27,31): warning C4244:         [
+C:\hlocal\TPV2\Practica1\TPV2\TPV2\src\components\PaddleMouseCtrl.cpp(27,31): warning C4244:             _Ty2=Sint32
+C:\hlocal\TPV2\Practica1\TPV2\TPV2\src\components\PaddleMouseCtrl.cpp(27,31): warning C4244:         ]
+  RectangleViewer.cpp
+  StopOnBorders.cpp
+  Manager.cpp
+  Game.cpp
+C:\hlocal\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(51,32): warning C4101: 'e': variable local sin referencia
+  (compilando archivo de origen "src/game/Game.cpp")
+  C:\hlocal\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(51,32):
+  el contexto de creación de instancias de la plantilla (el más antiguo primero) es
+  	C:\hlocal\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(201,34):
+  	Vea la referencia a la creación de una instancia de clase plantilla "SDLUtils::map_access_wrapper<SoundEffect>" que se está compilando
+  	C:\hlocal\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(48,13):
+  	al compilar la función del miembro clase plantilla "T &SDLUtils::map_access_wrapper<T>::at(const std::string &)"
+          with
+          [
+              T=SoundEffect
+          ]
+  		C:\hlocal\TPV2\Practica1\TPV2\TPV2\src\game\Game.cpp(165,50):
+  		vea la primera referencia a “SDLUtils::map_access_wrapper<SoundEffect>::at” en “Game::checkCollisions”
+  
+  JSON.cpp
+  JSONValue.cpp
+  json_demo.cpp
+  main.cpp
+  SDLUtils.cpp
+  sdlutils_demo.cpp
+C:\hlocal\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(51,32): warning C4101: 'e': variable local sin referencia
+  (compilando archivo de origen "src/sdlutils/sdlutils_demo.cpp")
+  C:\hlocal\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(51,32):
+  el contexto de creación de instancias de la plantilla (el más antiguo primero) es
+  	C:\hlocal\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(202,28):
+  	Vea la referencia a la creación de una instancia de clase plantilla "SDLUtils::map_access_wrapper<Music>" que se está compilando
+  	C:\hlocal\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(48,13):
+  	al compilar la función del miembro clase plantilla "T &SDLUtils::map_access_wrapper<T>::at(const std::string &)"
+          with
+          [
+              T=Music
+          ]
+  		C:\hlocal\TPV2\Practica1\TPV2\TPV2\src\sdlutils\sdlutils_demo.cpp(52,30):
+  		vea la primera referencia a “SDLUtils::map_access_wrapper<Music>::at” en “sdlutils_basic_demo”
+  
+  SoundEffect.cpp
+  Texture.cpp
+  Collisions.cpp
+  Generando código...
+  Compilando...
+  Vector2D.cpp
+  Generando código...
+  TPV2.vcxproj -> C:\hlocal\TPV2\Practica1\TPV2\bin\TPV2Debug.exe
