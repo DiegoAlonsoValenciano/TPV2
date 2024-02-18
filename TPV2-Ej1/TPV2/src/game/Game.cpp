@@ -22,6 +22,7 @@
 #include "StopOnBorder.h"
 #include "FighterCtrl.h"
 #include "ShowAtOpposieSide.h"
+#include "DeAcceleration.h"
 
 Game::Game() 
 		//gm_(nullptr), //
@@ -53,6 +54,7 @@ void Game::init() {
 	fighter_->addComponent(new FighterCtrl());
 	fighter_->addComponent(new SimpleMove());
 	fighter_->addComponent(new ShowAtOpposieSide());
+	fighter_->addComponent(new DeAcceleration());
 	objs_.push_back(fighter_);
 //	// the ball
 //	ball_ = new Container();
