@@ -21,6 +21,7 @@
 #include "SimpleMove.h"
 #include "StopOnBorder.h"
 #include "FighterCtrl.h"
+#include "ShowAtOpposieSide.h"
 
 Game::Game() 
 		//gm_(nullptr), //
@@ -51,6 +52,7 @@ void Game::init() {
 				new ImageRenderer(&sdlutils().images().at("fighter")));
 	fighter_->addComponent(new FighterCtrl());
 	fighter_->addComponent(new SimpleMove());
+	fighter_->addComponent(new ShowAtOpposieSide());
 	objs_.push_back(fighter_);
 //	// the ball
 //	ball_ = new Container();
