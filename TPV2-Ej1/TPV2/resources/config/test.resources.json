@@ -11,8 +11,7 @@
     { "id" : "tennis_ball", "file" : "resources/images/tennis_ball.png" },
     { "id" : "star", "file" : "resources/images/star.png"},
     { "id" : "pacman","file": "resources/images/pacman.png"},
-    { "id" : "fighter","file": "resources/images/fighter.png"
-    }
+    { "id" : "fighter","file": "resources/images/fighter.png"}
   ],
   
   "messages" : [
