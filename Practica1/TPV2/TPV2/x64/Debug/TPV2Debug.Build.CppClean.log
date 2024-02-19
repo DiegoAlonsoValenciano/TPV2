@@ -1,23 +1,49 @@
-c:\hlocal\tpv2\practica1\tpv2\tpv2\x64\debug\bounceonborders.obj
-c:\hlocal\tpv2\practica1\tpv2\tpv2\x64\debug\collisions.obj
-c:\hlocal\tpv2\practica1\tpv2\tpv2\x64\debug\game.obj
-c:\hlocal\tpv2\practica1\tpv2\tpv2\x64\debug\gameinfomsgs.obj
-c:\hlocal\tpv2\practica1\tpv2\tpv2\x64\debug\gamestate.obj
-c:\hlocal\tpv2\practica1\tpv2\tpv2\x64\debug\image.obj
-c:\hlocal\tpv2\practica1\tpv2\tpv2\x64\debug\json.obj
-c:\hlocal\tpv2\practica1\tpv2\tpv2\x64\debug\jsonvalue.obj
-c:\hlocal\tpv2\practica1\tpv2\tpv2\x64\debug\json_demo.obj
-c:\hlocal\tpv2\practica1\tpv2\tpv2\x64\debug\main.obj
-c:\hlocal\tpv2\practica1\tpv2\tpv2\x64\debug\paddleaictrl.obj
-c:\hlocal\tpv2\practica1\tpv2\tpv2\x64\debug\paddlekbctrl.obj
-c:\hlocal\tpv2\practica1\tpv2\tpv2\x64\debug\paddlemousectrl.obj
-c:\hlocal\tpv2\practica1\tpv2\tpv2\x64\debug\rectangleviewer.obj
-c:\hlocal\tpv2\practica1\tpv2\tpv2\x64\debug\sdlutils.obj
-c:\hlocal\tpv2\practica1\tpv2\tpv2\x64\debug\sdlutils_demo.obj
-c:\hlocal\tpv2\practica1\tpv2\tpv2\x64\debug\soundeffect.obj
-c:\hlocal\tpv2\practica1\tpv2\tpv2\x64\debug\stoponborders.obj
-c:\hlocal\tpv2\practica1\tpv2\tpv2\x64\debug\texture.obj
-c:\hlocal\tpv2\practica1\tpv2\tpv2\x64\debug\vector2d.obj
-c:\hlocal\tpv2\practica1\tpv2\tpv2\x64\debug\vc143.idb
-c:\hlocal\tpv2\practica1\tpv2\tpv2\x64\debug\vc143.pdb
-c:\hlocal\tpv2\practica1\tpv2\tpv2\x64\debug\tpv2.tlog\cl.command.1.tlog
+c:\users\jiale\my project (1)\tpv2\practica1\tpv2\tpv2\x64\debug\vc143.pdb
+c:\users\jiale\my project (1)\tpv2\practica1\tpv2\tpv2\x64\debug\vc143.idb
+c:\users\jiale\my project (1)\tpv2\practica1\tpv2\tpv2\x64\debug\json.obj
+c:\users\jiale\my project (1)\tpv2\practica1\tpv2\tpv2\x64\debug\runningstate.obj
+c:\users\jiale\my project (1)\tpv2\practica1\tpv2\tpv2\x64\debug\pausedstate.obj
+c:\users\jiale\my project (1)\tpv2\practica1\tpv2\tpv2\x64\debug\newroundstate.obj
+c:\users\jiale\my project (1)\tpv2\practica1\tpv2\tpv2\x64\debug\newgamestate.obj
+c:\users\jiale\my project (1)\tpv2\practica1\tpv2\tpv2\x64\debug\gameoverstate.obj
+c:\users\jiale\my project (1)\tpv2\practica1\tpv2\tpv2\x64\debug\game.obj
+c:\users\jiale\my project (1)\tpv2\practica1\tpv2\tpv2\x64\debug\fighterutils.obj
+c:\users\jiale\my project (1)\tpv2\practica1\tpv2\tpv2\x64\debug\asteroidsutils.obj
+c:\users\jiale\my project (1)\tpv2\practica1\tpv2\tpv2\x64\debug\manager.obj
+c:\users\jiale\my project (1)\tpv2\practica1\tpv2\tpv2\x64\debug\transform.obj
+c:\users\jiale\my project (1)\tpv2\practica1\tpv2\tpv2\x64\debug\towardsdestination.obj
+c:\users\jiale\my project (1)\tpv2\practica1\tpv2\tpv2\x64\debug\showatopossiteside.obj
+c:\users\jiale\my project (1)\tpv2\practica1\tpv2\tpv2\x64\debug\imagewithframes.obj
+c:\users\jiale\my project (1)\tpv2\practica1\tpv2\tpv2\x64\debug\image.obj
+c:\users\jiale\my project (1)\tpv2\practica1\tpv2\tpv2\x64\debug\health.obj
+c:\users\jiale\my project (1)\tpv2\practica1\tpv2\tpv2\x64\debug\gun.obj
+c:\users\jiale\my project (1)\tpv2\practica1\tpv2\tpv2\x64\debug\follow.obj
+c:\users\jiale\my project (1)\tpv2\practica1\tpv2\tpv2\x64\debug\fighterctrl.obj
+c:\users\jiale\my project (1)\tpv2\practica1\tpv2\tpv2\x64\debug\deacceleration.obj
+c:\users\jiale\my project (1)\tpv2\practica1\tpv2\tpv2\x64\debug\vector2d.obj
+c:\users\jiale\my project (1)\tpv2\practica1\tpv2\tpv2\x64\debug\collisions.obj
+c:\users\jiale\my project (1)\tpv2\practica1\tpv2\tpv2\x64\debug\texture.obj
+c:\users\jiale\my project (1)\tpv2\practica1\tpv2\tpv2\x64\debug\soundeffect.obj
+c:\users\jiale\my project (1)\tpv2\practica1\tpv2\tpv2\x64\debug\sdlutils_demo.obj
+c:\users\jiale\my project (1)\tpv2\practica1\tpv2\tpv2\x64\debug\sdlutils.obj
+c:\users\jiale\my project (1)\tpv2\practica1\tpv2\tpv2\x64\debug\main.obj
+c:\users\jiale\my project (1)\tpv2\practica1\tpv2\tpv2\x64\debug\json_demo.obj
+c:\users\jiale\my project (1)\tpv2\practica1\tpv2\tpv2\x64\debug\jsonvalue.obj
+c:\users\jiale\my project (1)\tpv2\practica1\tpv2\tpv2\x64\debug\tpv2debug.ilk
+c:\users\jiale\my project (1)\tpv2\practica1\tpv2\bin\tpv2debug.exe
+c:\users\jiale\my project (1)\tpv2\practica1\tpv2\bin\tpv2debug.pdb
+c:\users\jiale\my project (1)\tpv2\practica1\tpv2\tpv2\x64\debug\bounceonborders.obj
+c:\users\jiale\my project (1)\tpv2\practica1\tpv2\tpv2\x64\debug\gameinfomsgs.obj
+c:\users\jiale\my project (1)\tpv2\practica1\tpv2\tpv2\x64\debug\gamestate.obj
+c:\users\jiale\my project (1)\tpv2\practica1\tpv2\tpv2\x64\debug\paddleaictrl.obj
+c:\users\jiale\my project (1)\tpv2\practica1\tpv2\tpv2\x64\debug\paddlekbctrl.obj
+c:\users\jiale\my project (1)\tpv2\practica1\tpv2\tpv2\x64\debug\paddlemousectrl.obj
+c:\users\jiale\my project (1)\tpv2\practica1\tpv2\tpv2\x64\debug\rectangleviewer.obj
+c:\users\jiale\my project (1)\tpv2\practica1\tpv2\tpv2\x64\debug\stoponborders.obj
+c:\users\jiale\my project (1)\tpv2\practica1\tpv2\tpv2\x64\debug\tpv2.tlog\cl.command.1.tlog
+c:\users\jiale\my project (1)\tpv2\practica1\tpv2\tpv2\x64\debug\tpv2.tlog\cl.items.tlog
+c:\users\jiale\my project (1)\tpv2\practica1\tpv2\tpv2\x64\debug\tpv2.tlog\cl.read.1.tlog
+c:\users\jiale\my project (1)\tpv2\practica1\tpv2\tpv2\x64\debug\tpv2.tlog\cl.write.1.tlog
+c:\users\jiale\my project (1)\tpv2\practica1\tpv2\tpv2\x64\debug\tpv2.tlog\link.command.1.tlog
+c:\users\jiale\my project (1)\tpv2\practica1\tpv2\tpv2\x64\debug\tpv2.tlog\link.read.1.tlog
+c:\users\jiale\my project (1)\tpv2\practica1\tpv2\tpv2\x64\debug\tpv2.tlog\link.write.1.tlog

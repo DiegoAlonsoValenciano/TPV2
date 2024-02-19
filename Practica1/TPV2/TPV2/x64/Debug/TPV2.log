@@ -1,272 +1,196 @@
-﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8004: El directorio Output no termina con una barra diagonal final. Esta instancia de compilación agregará la barra diagonal porque es necesaria para que se pueda evaluar correctamente el directorio Output.
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
   DeAcceleration.cpp
   FighterCtrl.cpp
-C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(51,32): warning C4101: 'e': variable local sin referencia
-  (compilando archivo de origen "src/components/FighterCtrl.cpp")
-  C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(51,32):
-  el contexto de creación de instancias de la plantilla (el más antiguo primero) es
-  	C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(201,34):
-  	Vea la referencia a la creación de una instancia de clase plantilla "SDLUtils::map_access_wrapper<SoundEffect>" que se está compilando
-  	C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(48,13):
-  	al compilar la función del miembro clase plantilla "T &SDLUtils::map_access_wrapper<T>::at(const std::string &)"
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(51,32): warning C4101: 'e': unreferenced local variable
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(48,13): message : while compiling class template member function 'T &SDLUtils::map_access_wrapper<T>::at(const std::string &)'
           with
           [
               T=SoundEffect
           ]
-  		C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\components\FighterCtrl.cpp(34,46):
-  		vea la primera referencia a “SDLUtils::map_access_wrapper<SoundEffect>::at” en “FighterCtrl::update”
-  
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\components\FighterCtrl.cpp(34,46): message : see the first reference to 'SDLUtils::map_access_wrapper<SoundEffect>::at' in 'FighterCtrl::update'
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(201,34): message : see reference to class template instantiation 'SDLUtils::map_access_wrapper<SoundEffect>' being compiled
   Follow.cpp
   Gun.cpp
-C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\components\Gun.cpp(48,36): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
-C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\components\Gun.cpp(48,23): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
-C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\components\Gun.cpp(61,51): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
-C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\components\Gun.cpp(61,40): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
-C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\components\Gun.cpp(61,33): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
-C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\components\Gun.cpp(61,23): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
-C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\components\Gun.cpp(72,51): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
-C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\components\Gun.cpp(72,42): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
-C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(51,32): warning C4101: 'e': variable local sin referencia
-  (compilando archivo de origen "src/components/Gun.cpp")
-  C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(51,32):
-  el contexto de creación de instancias de la plantilla (el más antiguo primero) es
-  	C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(201,34):
-  	Vea la referencia a la creación de una instancia de clase plantilla "SDLUtils::map_access_wrapper<SoundEffect>" que se está compilando
-  	C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(48,13):
-  	al compilar la función del miembro clase plantilla "T &SDLUtils::map_access_wrapper<T>::at(const std::string &)"
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\components\Gun.cpp(48,36): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\components\Gun.cpp(48,23): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\components\Gun.cpp(61,51): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\components\Gun.cpp(61,40): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\components\Gun.cpp(61,33): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\components\Gun.cpp(61,23): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\components\Gun.cpp(72,51): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\components\Gun.cpp(72,42): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(51,32): warning C4101: 'e': unreferenced local variable
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(48,13): message : while compiling class template member function 'T &SDLUtils::map_access_wrapper<T>::at(const std::string &)'
           with
           [
               T=SoundEffect
           ]
-  		C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\components\Gun.cpp(95,47):
-  		vea la primera referencia a “SDLUtils::map_access_wrapper<SoundEffect>::at” en “Gun::shoot”
-  
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\components\Gun.cpp(95,47): message : see the first reference to 'SDLUtils::map_access_wrapper<SoundEffect>::at' in 'Gun::shoot'
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(201,34): message : see reference to class template instantiation 'SDLUtils::map_access_wrapper<SoundEffect>' being compiled
   Health.cpp
-C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(51,32): warning C4101: 'e': variable local sin referencia
-  (compilando archivo de origen "src/components/Health.cpp")
-  C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(51,32):
-  el contexto de creación de instancias de la plantilla (el más antiguo primero) es
-  	C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(199,30):
-  	Vea la referencia a la creación de una instancia de clase plantilla "SDLUtils::map_access_wrapper<Texture>" que se está compilando
-  	C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(48,13):
-  	al compilar la función del miembro clase plantilla "T &SDLUtils::map_access_wrapper<T>::at(const std::string &)"
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(51,32): warning C4101: 'e': unreferenced local variable
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(48,13): message : while compiling class template member function 'T &SDLUtils::map_access_wrapper<T>::at(const std::string &)'
           with
           [
               T=Texture
           ]
-  		C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\components\Health.cpp(15,18):
-  		vea la primera referencia a “SDLUtils::map_access_wrapper<Texture>::at” en “Health::Health”
-  
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\components\Health.cpp(15,18): message : see the first reference to 'SDLUtils::map_access_wrapper<Texture>::at' in 'Health::Health'
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(199,30): message : see reference to class template instantiation 'SDLUtils::map_access_wrapper<Texture>' being compiled
   Image.cpp
   ImageWithFrames.cpp
-C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\components\ImageWithFrames.cpp(52,4): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
-C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\components\ImageWithFrames.cpp(51,72): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
-C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\components\ImageWithFrames.cpp(51,66): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
-C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\components\ImageWithFrames.cpp(51,43): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\components\ImageWithFrames.cpp(52,4): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\components\ImageWithFrames.cpp(51,72): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\components\ImageWithFrames.cpp(51,66): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\components\ImageWithFrames.cpp(51,43): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
   ShowAtOpossiteSide.cpp
-C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\components\ShowAtOpossiteSide.cpp(27,32): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
-C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\components\ShowAtOpossiteSide.cpp(33,31): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\components\ShowAtOpossiteSide.cpp(27,32): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\components\ShowAtOpossiteSide.cpp(33,31): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
   TowardsDestination.cpp
-C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\components\TowardsDestination.cpp(33,22): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
-C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\components\TowardsDestination.cpp(33,19): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\components\TowardsDestination.cpp(33,22): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\components\TowardsDestination.cpp(33,19): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
   Transform.cpp
-C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\components\Transform.cpp(33,14): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
-C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\components\Transform.cpp(32,71): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
-C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\components\Transform.cpp(32,56): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
-C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\components\Transform.cpp(32,41): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
-C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\components\Transform.cpp(35,14): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
-C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\components\Transform.cpp(34,71): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
-C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\components\Transform.cpp(34,56): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
-C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\components\Transform.cpp(34,41): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
-C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\components\Transform.cpp(37,14): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
-C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\components\Transform.cpp(36,71): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
-C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\components\Transform.cpp(36,56): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
-C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\components\Transform.cpp(36,41): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
-C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\components\Transform.cpp(39,14): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
-C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\components\Transform.cpp(38,71): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
-C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\components\Transform.cpp(38,56): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
-C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\components\Transform.cpp(38,41): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
-C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\components\Transform.cpp(52,64): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
-C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\components\Transform.cpp(52,48): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
-C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\components\Transform.cpp(52,34): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
-C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\components\Transform.cpp(52,31): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\components\Transform.cpp(33,14): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\components\Transform.cpp(32,71): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\components\Transform.cpp(32,56): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\components\Transform.cpp(32,41): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\components\Transform.cpp(35,14): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\components\Transform.cpp(34,71): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\components\Transform.cpp(34,56): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\components\Transform.cpp(34,41): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\components\Transform.cpp(37,14): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\components\Transform.cpp(36,71): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\components\Transform.cpp(36,56): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\components\Transform.cpp(36,41): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\components\Transform.cpp(39,14): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\components\Transform.cpp(38,71): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\components\Transform.cpp(38,56): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\components\Transform.cpp(38,41): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\components\Transform.cpp(52,64): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\components\Transform.cpp(52,48): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\components\Transform.cpp(52,34): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\components\Transform.cpp(52,31): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  Manager.cpp
   AsteroidsUtils.cpp
-C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\game\AsteroidsUtils.cpp(61,28): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
-C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\game\AsteroidsUtils.cpp(61,25): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
-C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\game\AsteroidsUtils.cpp(63,17): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
-C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\game\AsteroidsUtils.cpp(62,36): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
-C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\game\AsteroidsUtils.cpp(125,34): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
-C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\game\AsteroidsUtils.cpp(125,55): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
-C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(51,32): warning C4101: 'e': variable local sin referencia
-  (compilando archivo de origen "src/game/AsteroidsUtils.cpp")
-  C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(51,32):
-  el contexto de creación de instancias de la plantilla (el más antiguo primero) es
-  	C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(199,30):
-  	Vea la referencia a la creación de una instancia de clase plantilla "SDLUtils::map_access_wrapper<Texture>" que se está compilando
-  	C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(48,13):
-  	al compilar la función del miembro clase plantilla "T &SDLUtils::map_access_wrapper<T>::at(const std::string &)"
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\game\AsteroidsUtils.cpp(61,28): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\game\AsteroidsUtils.cpp(61,25): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\game\AsteroidsUtils.cpp(63,17): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\game\AsteroidsUtils.cpp(62,36): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\game\AsteroidsUtils.cpp(125,34): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\game\AsteroidsUtils.cpp(125,55): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(51,32): warning C4101: 'e': unreferenced local variable
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(48,13): message : while compiling class template member function 'T &SDLUtils::map_access_wrapper<T>::at(const std::string &)'
           with
           [
               T=Texture
           ]
-  		C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\game\AsteroidsUtils.cpp(85,37):
-  		vea la primera referencia a “SDLUtils::map_access_wrapper<Texture>::at” en “AsteroidsUtils::generateAsteroid”
-  
-C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\ecs\Manager.h(86,40): warning C4244: 'argumento': conversión de '_Ty' a 'float'; posible pérdida de datos
-C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\ecs\Manager.h(86,40): warning C4244:         with
-C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\ecs\Manager.h(86,40): warning C4244:         [
-C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\ecs\Manager.h(86,40): warning C4244:             _Ty=int
-C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\ecs\Manager.h(86,40): warning C4244:         ]
-  (compilando archivo de origen "src/game/AsteroidsUtils.cpp")
-  C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\ecs\Manager.h(86,40):
-  el contexto de creación de instancias de la plantilla (el más antiguo primero) es
-  	C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\game\AsteroidsUtils.cpp(81,6):
-  	Vea la referencia a la creación de una instancia de la función plantilla "T *ecs::Manager::addComponent<Transform,const Vector2D&,const Vector2D&,int,int,float>(ecs::entity_t,const Vector2D &,const Vector2D &,int &&,int &&,float &&)" que se está compilando
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\game\AsteroidsUtils.cpp(85,37): message : see the first reference to 'SDLUtils::map_access_wrapper<Texture>::at' in 'AsteroidsUtils::generateAsteroid'
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(199,30): message : see reference to class template instantiation 'SDLUtils::map_access_wrapper<Texture>' being compiled
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\ecs\Manager.h(86,40): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\game\AsteroidsUtils.cpp(81,6): message : see reference to function template instantiation 'T *ecs::Manager::addComponent<Transform,const Vector2D&,const Vector2D&,int,int,float>(ecs::entity_t,const Vector2D &,const Vector2D &,int &&,int &&,float &&)' being compiled
           with
           [
               T=Transform
           ]
-  
   FighterUtils.cpp
-C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\game\FighterUtils.cpp(31,32): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
-C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\game\FighterUtils.cpp(30,38): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
-C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\game\FighterUtils.cpp(31,53): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
-C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\game\FighterUtils.cpp(31,50): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
-C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(51,32): warning C4101: 'e': variable local sin referencia
-  (compilando archivo de origen "src/game/FighterUtils.cpp")
-  C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(51,32):
-  el contexto de creación de instancias de la plantilla (el más antiguo primero) es
-  	C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(199,30):
-  	Vea la referencia a la creación de una instancia de clase plantilla "SDLUtils::map_access_wrapper<Texture>" que se está compilando
-  	C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(48,13):
-  	al compilar la función del miembro clase plantilla "T &SDLUtils::map_access_wrapper<T>::at(const std::string &)"
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\game\FighterUtils.cpp(31,32): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\game\FighterUtils.cpp(30,38): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\game\FighterUtils.cpp(31,53): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\game\FighterUtils.cpp(31,50): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(51,32): warning C4101: 'e': unreferenced local variable
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(48,13): message : while compiling class template member function 'T &SDLUtils::map_access_wrapper<T>::at(const std::string &)'
           with
           [
               T=Texture
           ]
-  		C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\game\FighterUtils.cpp(44,28):
-  		vea la primera referencia a “SDLUtils::map_access_wrapper<Texture>::at” en “FighterUtils::create_fighter”
-  
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\game\FighterUtils.cpp(44,28): message : see the first reference to 'SDLUtils::map_access_wrapper<Texture>::at' in 'FighterUtils::create_fighter'
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(199,30): message : see reference to class template instantiation 'SDLUtils::map_access_wrapper<Texture>' being compiled
   Game.cpp
   GameOverState.cpp
-C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\game\GameOverState.cpp(36,10): warning C4244: 'inicializando': conversión de 'int' a 'float'; posible pérdida de datos
-C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\game\GameOverState.cpp(37,10): warning C4244: 'inicializando': conversión de 'int' a 'float'; posible pérdida de datos
-C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\game\GameOverState.cpp(38,57): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
-C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\game\GameOverState.cpp(38,41): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
-C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(51,32): warning C4101: 'e': variable local sin referencia
-  (compilando archivo de origen "src/game/GameOverState.cpp")
-  C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(51,32):
-  el contexto de creación de instancias de la plantilla (el más antiguo primero) es
-  	C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(199,30):
-  	Vea la referencia a la creación de una instancia de clase plantilla "SDLUtils::map_access_wrapper<Texture>" que se está compilando
-  	C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(48,13):
-  	al compilar la función del miembro clase plantilla "T &SDLUtils::map_access_wrapper<T>::at(const std::string &)"
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\game\GameOverState.cpp(36,10): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\game\GameOverState.cpp(37,10): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\game\GameOverState.cpp(38,57): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\game\GameOverState.cpp(38,41): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(51,32): warning C4101: 'e': unreferenced local variable
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(48,13): message : while compiling class template member function 'T &SDLUtils::map_access_wrapper<T>::at(const std::string &)'
           with
           [
               T=Texture
           ]
-  		C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\game\GameOverState.cpp(32,8):
-  		vea la primera referencia a “SDLUtils::map_access_wrapper<Texture>::at” en “GameOverState::enter”
-  
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\game\GameOverState.cpp(32,8): message : see the first reference to 'SDLUtils::map_access_wrapper<Texture>::at' in 'GameOverState::enter'
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(199,30): message : see reference to class template instantiation 'SDLUtils::map_access_wrapper<Texture>' being compiled
   NewGameState.cpp
-C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\game\NewGameState.cpp(15,10): warning C4244: 'inicializando': conversión de 'int' a 'float'; posible pérdida de datos
-C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\game\NewGameState.cpp(16,10): warning C4244: 'inicializando': conversión de 'int' a 'float'; posible pérdida de datos
-C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\game\NewGameState.cpp(17,55): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
-C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\game\NewGameState.cpp(17,40): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
-C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(51,32): warning C4101: 'e': variable local sin referencia
-  (compilando archivo de origen "src/game/NewGameState.cpp")
-  C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(51,32):
-  el contexto de creación de instancias de la plantilla (el más antiguo primero) es
-  	C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(199,30):
-  	Vea la referencia a la creación de una instancia de clase plantilla "SDLUtils::map_access_wrapper<Texture>" que se está compilando
-  	C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(48,13):
-  	al compilar la función del miembro clase plantilla "T &SDLUtils::map_access_wrapper<T>::at(const std::string &)"
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\game\NewGameState.cpp(15,10): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\game\NewGameState.cpp(16,10): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\game\NewGameState.cpp(17,55): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\game\NewGameState.cpp(17,40): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(51,32): warning C4101: 'e': unreferenced local variable
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(48,13): message : while compiling class template member function 'T &SDLUtils::map_access_wrapper<T>::at(const std::string &)'
           with
           [
               T=Texture
           ]
-  		C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\game\NewGameState.cpp(12,7):
-  		vea la primera referencia a “SDLUtils::map_access_wrapper<Texture>::at” en “NewGameState::NewGameState”
-  
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\game\NewGameState.cpp(12,7): message : see the first reference to 'SDLUtils::map_access_wrapper<Texture>::at' in 'NewGameState::NewGameState'
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(199,30): message : see reference to class template instantiation 'SDLUtils::map_access_wrapper<Texture>' being compiled
   NewRoundState.cpp
-C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\game\NewRoundState.cpp(17,10): warning C4244: 'inicializando': conversión de 'int' a 'float'; posible pérdida de datos
-C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\game\NewRoundState.cpp(18,10): warning C4244: 'inicializando': conversión de 'int' a 'float'; posible pérdida de datos
-C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\game\NewRoundState.cpp(19,55): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
-C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\game\NewRoundState.cpp(19,40): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
-C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(51,32): warning C4101: 'e': variable local sin referencia
-  (compilando archivo de origen "src/game/NewRoundState.cpp")
-  C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(51,32):
-  el contexto de creación de instancias de la plantilla (el más antiguo primero) es
-  	C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(199,30):
-  	Vea la referencia a la creación de una instancia de clase plantilla "SDLUtils::map_access_wrapper<Texture>" que se está compilando
-  	C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(48,13):
-  	al compilar la función del miembro clase plantilla "T &SDLUtils::map_access_wrapper<T>::at(const std::string &)"
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\game\NewRoundState.cpp(17,10): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\game\NewRoundState.cpp(18,10): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\game\NewRoundState.cpp(19,55): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\game\NewRoundState.cpp(19,40): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(51,32): warning C4101: 'e': unreferenced local variable
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(48,13): message : while compiling class template member function 'T &SDLUtils::map_access_wrapper<T>::at(const std::string &)'
           with
           [
               T=Texture
           ]
-  		C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\game\NewRoundState.cpp(13,7):
-  		vea la primera referencia a “SDLUtils::map_access_wrapper<Texture>::at” en “NewRoundState::NewRoundState”
-  
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\game\NewRoundState.cpp(13,7): message : see the first reference to 'SDLUtils::map_access_wrapper<Texture>::at' in 'NewRoundState::NewRoundState'
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(199,30): message : see reference to class template instantiation 'SDLUtils::map_access_wrapper<Texture>' being compiled
   PausedState.cpp
-C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\game\PausedState.cpp(12,10): warning C4244: 'inicializando': conversión de 'int' a 'float'; posible pérdida de datos
-C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\game\PausedState.cpp(13,10): warning C4244: 'inicializando': conversión de 'int' a 'float'; posible pérdida de datos
-C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\game\PausedState.cpp(14,55): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
-C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\game\PausedState.cpp(14,40): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
-C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(51,32): warning C4101: 'e': variable local sin referencia
-  (compilando archivo de origen "src/game/PausedState.cpp")
-  C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(51,32):
-  el contexto de creación de instancias de la plantilla (el más antiguo primero) es
-  	C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(199,30):
-  	Vea la referencia a la creación de una instancia de clase plantilla "SDLUtils::map_access_wrapper<Texture>" que se está compilando
-  	C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(48,13):
-  	al compilar la función del miembro clase plantilla "T &SDLUtils::map_access_wrapper<T>::at(const std::string &)"
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\game\PausedState.cpp(12,10): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\game\PausedState.cpp(13,10): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\game\PausedState.cpp(14,55): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\game\PausedState.cpp(14,40): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(51,32): warning C4101: 'e': unreferenced local variable
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(48,13): message : while compiling class template member function 'T &SDLUtils::map_access_wrapper<T>::at(const std::string &)'
           with
           [
               T=Texture
           ]
-  		C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\game\PausedState.cpp(10,7):
-  		vea la primera referencia a “SDLUtils::map_access_wrapper<Texture>::at” en “PausedState::PausedState”
-  
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\game\PausedState.cpp(10,7): message : see the first reference to 'SDLUtils::map_access_wrapper<Texture>::at' in 'PausedState::PausedState'
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(199,30): message : see reference to class template instantiation 'SDLUtils::map_access_wrapper<Texture>' being compiled
   RunningState.cpp
-C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\game\RunningState.cpp(113,8): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
-C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\game\RunningState.cpp(112,8): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
-C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(51,32): warning C4101: 'e': variable local sin referencia
-  (compilando archivo de origen "src/game/RunningState.cpp")
-  C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(51,32):
-  el contexto de creación de instancias de la plantilla (el más antiguo primero) es
-  	C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(201,34):
-  	Vea la referencia a la creación de una instancia de clase plantilla "SDLUtils::map_access_wrapper<SoundEffect>" que se está compilando
-  	C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(48,13):
-  	al compilar la función del miembro clase plantilla "T &SDLUtils::map_access_wrapper<T>::at(const std::string &)"
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\game\RunningState.cpp(113,8): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\game\RunningState.cpp(112,8): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(51,32): warning C4101: 'e': unreferenced local variable
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(48,13): message : while compiling class template member function 'T &SDLUtils::map_access_wrapper<T>::at(const std::string &)'
           with
           [
               T=SoundEffect
           ]
-  		C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\game\RunningState.cpp(121,52):
-  		vea la primera referencia a “SDLUtils::map_access_wrapper<SoundEffect>::at” en “RunningState::checkCollisions”
-  
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\game\RunningState.cpp(121,52): message : see the first reference to 'SDLUtils::map_access_wrapper<SoundEffect>::at' in 'RunningState::checkCollisions'
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(201,34): message : see reference to class template instantiation 'SDLUtils::map_access_wrapper<SoundEffect>' being compiled
+  JSON.cpp
+  Generating Code...
+  Compiling...
+  JSONValue.cpp
+  json_demo.cpp
+  main.cpp
   SDLUtils.cpp
   sdlutils_demo.cpp
-C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(51,32): warning C4101: 'e': variable local sin referencia
-  (compilando archivo de origen "src/sdlutils/sdlutils_demo.cpp")
-  C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(51,32):
-  el contexto de creación de instancias de la plantilla (el más antiguo primero) es
-  	C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(202,28):
-  	Vea la referencia a la creación de una instancia de clase plantilla "SDLUtils::map_access_wrapper<Music>" que se está compilando
-  	C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(48,13):
-  	al compilar la función del miembro clase plantilla "T &SDLUtils::map_access_wrapper<T>::at(const std::string &)"
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(51,32): warning C4101: 'e': unreferenced local variable
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(48,13): message : while compiling class template member function 'T &SDLUtils::map_access_wrapper<T>::at(const std::string &)'
           with
           [
               T=Music
           ]
-  		C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\sdlutils\sdlutils_demo.cpp(52,30):
-  		vea la primera referencia a “SDLUtils::map_access_wrapper<Music>::at” en “sdlutils_basic_demo”
-  
-  Generando código...
-  Compilando...
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\sdlutils\sdlutils_demo.cpp(52,30): message : see the first reference to 'SDLUtils::map_access_wrapper<Music>::at' in 'sdlutils_basic_demo'
+C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(202,28): message : see reference to class template instantiation 'SDLUtils::map_access_wrapper<Music>' being compiled
+  SoundEffect.cpp
   Texture.cpp
   Collisions.cpp
   Vector2D.cpp
-  Generando código...
-  TPV2.vcxproj -> C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\bin\TPV2Debug.exe
+  Generating Code...
+  TPV2.vcxproj -> C:\Users\jiale\My project (1)\TPV2\Practica1\TPV2\bin\TPV2Debug.exe
