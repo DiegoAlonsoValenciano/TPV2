@@ -1,27 +1,27 @@
-C:\Users\jiale\My project (1)\TPV2\TPV2-Ej1\TPV2\src\game\AIPaddle.cpp;C:\Users\jiale\My project (1)\TPV2\TPV2-Ej1\TPV2\x64\Debug\AIPaddle.obj
-C:\Users\jiale\My project (1)\TPV2\TPV2-Ej1\TPV2\src\game\BounceOnBorder.cpp;C:\Users\jiale\My project (1)\TPV2\TPV2-Ej1\TPV2\x64\Debug\BounceOnBorder.obj
-C:\Users\jiale\My project (1)\TPV2\TPV2-Ej1\TPV2\src\game\Containter.cpp;C:\Users\jiale\My project (1)\TPV2\TPV2-Ej1\TPV2\x64\Debug\Containter.obj
-C:\Users\jiale\My project (1)\TPV2\TPV2-Ej1\TPV2\src\game\EmptyRectangleRenderer.cpp;C:\Users\jiale\My project (1)\TPV2\TPV2-Ej1\TPV2\x64\Debug\EmptyRectangleRenderer.obj
-C:\Users\jiale\My project (1)\TPV2\TPV2-Ej1\TPV2\src\game\FighterCtrl.cpp;C:\Users\jiale\My project (1)\TPV2\TPV2-Ej1\TPV2\x64\Debug\FighterCtrl.obj
-C:\Users\jiale\My project (1)\TPV2\TPV2-Ej1\TPV2\src\game\Game.cpp;C:\Users\jiale\My project (1)\TPV2\TPV2-Ej1\TPV2\x64\Debug\Game.obj
-C:\Users\jiale\My project (1)\TPV2\TPV2-Ej1\TPV2\src\game\GameCtrl.cpp;C:\Users\jiale\My project (1)\TPV2\TPV2-Ej1\TPV2\x64\Debug\GameCtrl.obj
-C:\Users\jiale\My project (1)\TPV2\TPV2-Ej1\TPV2\src\game\GameManager.cpp;C:\Users\jiale\My project (1)\TPV2\TPV2-Ej1\TPV2\x64\Debug\GameManager.obj
-C:\Users\jiale\My project (1)\TPV2\TPV2-Ej1\TPV2\src\game\ImageRenderer.cpp;C:\Users\jiale\My project (1)\TPV2\TPV2-Ej1\TPV2\x64\Debug\ImageRenderer.obj
-C:\Users\jiale\My project (1)\TPV2\TPV2-Ej1\TPV2\src\game\InfoMsgs.cpp;C:\Users\jiale\My project (1)\TPV2\TPV2-Ej1\TPV2\x64\Debug\InfoMsgs.obj
-C:\Users\jiale\My project (1)\TPV2\TPV2-Ej1\TPV2\src\game\MovePaddleWithKeyBoard.cpp;C:\Users\jiale\My project (1)\TPV2\TPV2-Ej1\TPV2\x64\Debug\MovePaddleWithKeyBoard.obj
-C:\Users\jiale\My project (1)\TPV2\TPV2-Ej1\TPV2\src\game\MovePaddleWithMouse.cpp;C:\Users\jiale\My project (1)\TPV2\TPV2-Ej1\TPV2\x64\Debug\MovePaddleWithMouse.obj
-C:\Users\jiale\My project (1)\TPV2\TPV2-Ej1\TPV2\src\game\RectangleRenderer.cpp;C:\Users\jiale\My project (1)\TPV2\TPV2-Ej1\TPV2\x64\Debug\RectangleRenderer.obj
-C:\Users\jiale\My project (1)\TPV2\TPV2-Ej1\TPV2\src\game\ScoreRenderer.cpp;C:\Users\jiale\My project (1)\TPV2\TPV2-Ej1\TPV2\x64\Debug\ScoreRenderer.obj
-C:\Users\jiale\My project (1)\TPV2\TPV2-Ej1\TPV2\src\game\ShowAtOpposieSide.cpp;C:\Users\jiale\My project (1)\TPV2\TPV2-Ej1\TPV2\x64\Debug\ShowAtOpposieSide.obj
-C:\Users\jiale\My project (1)\TPV2\TPV2-Ej1\TPV2\src\game\SimpleMove.cpp;C:\Users\jiale\My project (1)\TPV2\TPV2-Ej1\TPV2\x64\Debug\SimpleMove.obj
-C:\Users\jiale\My project (1)\TPV2\TPV2-Ej1\TPV2\src\game\StopOnBorder.cpp;C:\Users\jiale\My project (1)\TPV2\TPV2-Ej1\TPV2\x64\Debug\StopOnBorder.obj
-C:\Users\jiale\My project (1)\TPV2\TPV2-Ej1\TPV2\src\json\JSON.cpp;C:\Users\jiale\My project (1)\TPV2\TPV2-Ej1\TPV2\x64\Debug\JSON.obj
-C:\Users\jiale\My project (1)\TPV2\TPV2-Ej1\TPV2\src\json\JSONValue.cpp;C:\Users\jiale\My project (1)\TPV2\TPV2-Ej1\TPV2\x64\Debug\JSONValue.obj
-C:\Users\jiale\My project (1)\TPV2\TPV2-Ej1\TPV2\src\json\json_demo.cpp;C:\Users\jiale\My project (1)\TPV2\TPV2-Ej1\TPV2\x64\Debug\json_demo.obj
-C:\Users\jiale\My project (1)\TPV2\TPV2-Ej1\TPV2\src\main.cpp;C:\Users\jiale\My project (1)\TPV2\TPV2-Ej1\TPV2\x64\Debug\main.obj
-C:\Users\jiale\My project (1)\TPV2\TPV2-Ej1\TPV2\src\sdlutils\SDLUtils.cpp;C:\Users\jiale\My project (1)\TPV2\TPV2-Ej1\TPV2\x64\Debug\SDLUtils.obj
-C:\Users\jiale\My project (1)\TPV2\TPV2-Ej1\TPV2\src\sdlutils\sdlutils_demo.cpp;C:\Users\jiale\My project (1)\TPV2\TPV2-Ej1\TPV2\x64\Debug\sdlutils_demo.obj
-C:\Users\jiale\My project (1)\TPV2\TPV2-Ej1\TPV2\src\sdlutils\SoundEffect.cpp;C:\Users\jiale\My project (1)\TPV2\TPV2-Ej1\TPV2\x64\Debug\SoundEffect.obj
-C:\Users\jiale\My project (1)\TPV2\TPV2-Ej1\TPV2\src\sdlutils\Texture.cpp;C:\Users\jiale\My project (1)\TPV2\TPV2-Ej1\TPV2\x64\Debug\Texture.obj
-C:\Users\jiale\My project (1)\TPV2\TPV2-Ej1\TPV2\src\utils\Collisions.cpp;C:\Users\jiale\My project (1)\TPV2\TPV2-Ej1\TPV2\x64\Debug\Collisions.obj
-C:\Users\jiale\My project (1)\TPV2\TPV2-Ej1\TPV2\src\utils\Vector2D.cpp;C:\Users\jiale\My project (1)\TPV2\TPV2-Ej1\TPV2\x64\Debug\Vector2D.obj
+C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\TPV2-Ej1\TPV2\src\game\AIPaddle.cpp;C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\TPV2-Ej1\TPV2\x64\Debug\AIPaddle.obj
+C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\TPV2-Ej1\TPV2\src\game\BounceOnBorder.cpp;C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\TPV2-Ej1\TPV2\x64\Debug\BounceOnBorder.obj
+C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\TPV2-Ej1\TPV2\src\game\Containter.cpp;C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\TPV2-Ej1\TPV2\x64\Debug\Containter.obj
+C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\TPV2-Ej1\TPV2\src\game\EmptyRectangleRenderer.cpp;C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\TPV2-Ej1\TPV2\x64\Debug\EmptyRectangleRenderer.obj
+C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\TPV2-Ej1\TPV2\src\game\FighterCtrl.cpp;C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\TPV2-Ej1\TPV2\x64\Debug\FighterCtrl.obj
+C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\TPV2-Ej1\TPV2\src\game\Game.cpp;C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\TPV2-Ej1\TPV2\x64\Debug\Game.obj
+C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\TPV2-Ej1\TPV2\src\game\GameCtrl.cpp;C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\TPV2-Ej1\TPV2\x64\Debug\GameCtrl.obj
+C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\TPV2-Ej1\TPV2\src\game\GameManager.cpp;C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\TPV2-Ej1\TPV2\x64\Debug\GameManager.obj
+C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\TPV2-Ej1\TPV2\src\game\ImageRenderer.cpp;C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\TPV2-Ej1\TPV2\x64\Debug\ImageRenderer.obj
+C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\TPV2-Ej1\TPV2\src\game\InfoMsgs.cpp;C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\TPV2-Ej1\TPV2\x64\Debug\InfoMsgs.obj
+C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\TPV2-Ej1\TPV2\src\game\MovePaddleWithKeyBoard.cpp;C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\TPV2-Ej1\TPV2\x64\Debug\MovePaddleWithKeyBoard.obj
+C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\TPV2-Ej1\TPV2\src\game\MovePaddleWithMouse.cpp;C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\TPV2-Ej1\TPV2\x64\Debug\MovePaddleWithMouse.obj
+C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\TPV2-Ej1\TPV2\src\game\RectangleRenderer.cpp;C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\TPV2-Ej1\TPV2\x64\Debug\RectangleRenderer.obj
+C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\TPV2-Ej1\TPV2\src\game\ScoreRenderer.cpp;C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\TPV2-Ej1\TPV2\x64\Debug\ScoreRenderer.obj
+C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\TPV2-Ej1\TPV2\src\game\ShowAtOpposieSide.cpp;C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\TPV2-Ej1\TPV2\x64\Debug\ShowAtOpposieSide.obj
+C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\TPV2-Ej1\TPV2\src\game\SimpleMove.cpp;C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\TPV2-Ej1\TPV2\x64\Debug\SimpleMove.obj
+C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\TPV2-Ej1\TPV2\src\game\StopOnBorder.cpp;C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\TPV2-Ej1\TPV2\x64\Debug\StopOnBorder.obj
+C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\TPV2-Ej1\TPV2\src\json\JSON.cpp;C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\TPV2-Ej1\TPV2\x64\Debug\JSON.obj
+C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\TPV2-Ej1\TPV2\src\json\JSONValue.cpp;C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\TPV2-Ej1\TPV2\x64\Debug\JSONValue.obj
+C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\TPV2-Ej1\TPV2\src\json\json_demo.cpp;C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\TPV2-Ej1\TPV2\x64\Debug\json_demo.obj
+C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\TPV2-Ej1\TPV2\src\main.cpp;C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\TPV2-Ej1\TPV2\x64\Debug\main.obj
+C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\TPV2-Ej1\TPV2\src\sdlutils\SDLUtils.cpp;C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\TPV2-Ej1\TPV2\x64\Debug\SDLUtils.obj
+C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\TPV2-Ej1\TPV2\src\sdlutils\sdlutils_demo.cpp;C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\TPV2-Ej1\TPV2\x64\Debug\sdlutils_demo.obj
+C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\TPV2-Ej1\TPV2\src\sdlutils\SoundEffect.cpp;C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\TPV2-Ej1\TPV2\x64\Debug\SoundEffect.obj
+C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\TPV2-Ej1\TPV2\src\sdlutils\Texture.cpp;C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\TPV2-Ej1\TPV2\x64\Debug\Texture.obj
+C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\TPV2-Ej1\TPV2\src\utils\Collisions.cpp;C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\TPV2-Ej1\TPV2\x64\Debug\Collisions.obj
+C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\TPV2-Ej1\TPV2\src\utils\Vector2D.cpp;C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\TPV2-Ej1\TPV2\x64\Debug\Vector2D.obj
