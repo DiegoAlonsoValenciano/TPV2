@@ -15,10 +15,14 @@ MissileUtils::~MissileUtils() {
 
 }
 
-void MissileUtils::generate_missile() {
-
+void MissileUtils::remove_all_missile() {
+	auto mngr = Game::instance()->getMngr();
+	for (auto e : mngr->getEntities(ecs::grp::MISSILE)) {
+		mngr->setAlive(e, false);
+	}
+	mngr->refresh();
 }
 
-void MissileUtils::remove_all_missile() {
+void MissileUtils::generate_missile() {
 
 }
