@@ -18,4 +18,5 @@ private:
 	int width_;
 	int height_;
 	int rot_;
+	int radius_;
 };
