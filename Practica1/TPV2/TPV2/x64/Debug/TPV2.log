@@ -1,7 +1,6 @@
 ﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8004: El directorio Output no termina con una barra diagonal final. Esta instancia de compilación agregará la barra diagonal porque es necesaria para que se pueda evaluar correctamente el directorio Output.
   DeAcceleration.cpp
   FighterCtrl.cpp
-  Follow.cpp
 C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(51,32): warning C4101: 'e': variable local sin referencia
   (compilando archivo de origen "src/components/FighterCtrl.cpp")
   C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(51,32):
@@ -17,6 +16,7 @@ C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\
   		C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\components\FighterCtrl.cpp(34,46):
   		vea la primera referencia a “SDLUtils::map_access_wrapper<SoundEffect>::at” en “FighterCtrl::update”
   
+  Follow.cpp
   Gun.cpp
 C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\components\Gun.cpp(48,36): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
 C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\components\Gun.cpp(48,23): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
@@ -169,6 +169,7 @@ C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\
   		C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\game\GameOverState.cpp(32,8):
   		vea la primera referencia a “SDLUtils::map_access_wrapper<Texture>::at” en “GameOverState::enter”
   
+  MissileUtils.cpp
   NewGameState.cpp
 C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\game\NewGameState.cpp(15,10): warning C4244: 'inicializando': conversión de 'int' a 'float'; posible pérdida de datos
 C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\game\NewGameState.cpp(16,10): warning C4244: 'inicializando': conversión de 'int' a 'float'; posible pérdida de datos
@@ -247,9 +248,9 @@ C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\
   		C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\game\RunningState.cpp(121,52):
   		vea la primera referencia a “SDLUtils::map_access_wrapper<SoundEffect>::at” en “RunningState::checkCollisions”
   
-  JSON.cpp
   Generando código...
   Compilando...
+  JSON.cpp
   JSONValue.cpp
   json_demo.cpp
   main.cpp
