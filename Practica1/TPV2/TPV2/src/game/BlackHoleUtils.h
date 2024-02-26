@@ -13,10 +13,8 @@ public:
 	void remove_BlackHole() override;
 
 private:
-	void generateBlackHole(const Vector2D& p, const Vector2D& v, int g);
+	void generateBlackHole(const Vector2D& p);
 	RandomNumberGenerator& rand_;
 	int width_;
 	int height_;
-	int rot_;
-	int radius_;
 };
