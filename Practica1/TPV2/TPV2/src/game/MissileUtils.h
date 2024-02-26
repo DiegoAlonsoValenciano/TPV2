@@ -14,5 +14,7 @@ public:
 	void remove_all_missile() override;
 private:
 	RandomNumberGenerator& rand_;
+	int width_;
+	int height_;
 };
 
