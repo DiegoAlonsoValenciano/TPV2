@@ -38,6 +38,8 @@
     <ClInclude Include="src\ecs_3\ecs\Manager.h" />
     <ClInclude Include="src\game\AsteroidsFacade.h" />
     <ClInclude Include="src\game\AsteroidsUtils.h" />
+    <ClInclude Include="src\game\BlackHoleFacade.h" />
+    <ClInclude Include="src\game\BlackHoleUtils.h" />
     <ClInclude Include="src\game\ecs_defs.h" />
     <ClInclude Include="src\game\FighterFacade.h" />
     <ClInclude Include="src\game\FighterUtils.h" />
@@ -71,7 +73,6 @@
     <ClInclude Include="src\utils\Vector2D.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="MissileUtils.cpp" />
     <ClCompile Include="src\components\DeAcceleration.cpp" />
     <ClCompile Include="src\components\FighterCtrl.cpp" />
     <ClCompile Include="src\components\Follow.cpp" />
@@ -84,9 +85,11 @@
     <ClCompile Include="src\components\Transform.cpp" />
     <ClCompile Include="src\ecs\Manager.cpp" />
     <ClCompile Include="src\game\AsteroidsUtils.cpp" />
+    <ClCompile Include="src\game\BlackHoleUtils.cpp" />
     <ClCompile Include="src\game\FighterUtils.cpp" />
     <ClCompile Include="src\game\Game.cpp" />
     <ClCompile Include="src\game\GameOverState.cpp" />
+    <ClCompile Include="src\game\MissileUtils.cpp" />
     <ClCompile Include="src\game\NewGameState.cpp" />
     <ClCompile Include="src\game\NewRoundState.cpp" />
     <ClCompile Include="src\game\PausedState.cpp" />
