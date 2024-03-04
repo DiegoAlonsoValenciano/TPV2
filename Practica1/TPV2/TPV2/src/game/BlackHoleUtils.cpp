@@ -12,7 +12,7 @@ BlackHoleUtils::BlackHoleUtils():rand_(sdlutils().rand()), width_(sdlutils().wid
 void BlackHoleUtils::create_BlackHole()
 {
 	for (int i = 0; i < 6; i++) {
-		int radius = rand_.nextInt(50, 150);
+		int radius = rand_.nextInt(25, 50);
 		generateBlackHole(SpawnPoint(radius), radius);
 	}
 

@@ -151,6 +151,27 @@ void RunningState::checkCollisions() {
 			}
 		}
 
+		for (auto b : black)
+		{
+			auto blckTR = mngr->getComponent<Transform>(b);
+			if (Collisions::collidesWithRotation( //
+				blckTR->getPos(), //
+				blckTR->getWidth(), //
+				blckTR->getHeight(), //
+				blckTR->getRot(), //
+				aTR->getPos(), //
+				aTR->getWidth(), //
+				aTR->getHeight(), //
+				aTR->getRot())) 
+			{
+				auto& pos = aTR->getPos();
+				pos.setX(sdlutils().rand().nextInt(aTR->getWidth(), sdlutils().width() - aTR->getWidth()));
+				pos.setY(sdlutils().rand().nextInt(aTR->getWidth(), sdlutils().height() - aTR->getHeight()));
+		     }
+		}
+
+
+
 	}
 
 	auto num_of_missiles = missiles.size();
@@ -199,7 +220,26 @@ void RunningState::checkCollisions() {
 
 	}
 
+	auto num_of_blackholes = black.size();
 
+	for (auto i = 0u; i< num_of_blackholes;i++)
+	{
+		auto a = black[i];
+
+		auto blckTR = mngr->getComponent<Transform>(a);
+		if (Collisions::collidesWithRotation( //
+			fighterTR->getPos(), //
+			fighterTR->getWidth(), //
+			fighterTR->getHeight(), //
+			fighterTR->getRot(), //
+			blckTR->getPos(), //
+			blckTR->getWidth(), //
+			blckTR->getHeight(), //
+			blckTR->getRot())) {
+			onFigherDeath();
+			return;
+		}
+	}
 
 
 
