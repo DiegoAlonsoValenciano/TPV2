@@ -49,7 +49,7 @@ void RunningState::update() {
 
 	auto fighter = mngr->getHandler(ecs::hdlr::FIGHTER);
 	auto& asteroids = mngr->getEntities(ecs::grp::ASTEROIDS);
-	auto& blackHole = mngr->getEntities(ecs::grp::ASTEROIDS);
+	auto& blackHole = mngr->getEntities(ecs::grp::BLACKHOLE);
 	auto& missile = mngr->getEntities(ecs::grp::MISSILE);
 
 	// update
