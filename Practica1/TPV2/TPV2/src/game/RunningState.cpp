@@ -154,6 +154,8 @@ void RunningState::checkCollisions() {
 
 
 
+
+
 }
 
 void RunningState::onFigherDeath() {

@@ -17,13 +17,11 @@ BlackRotation::~BlackRotation()
 
 void BlackRotation::initComponent()
 {
-	std::cout << "debug";
 	tr_ = mngr_->getComponent<Transform>(ent_);
 	assert(tr_ != nullptr);
 }
 
 void BlackRotation::update()
 {
-	std::cout << "debug";
 	tr_->setRot(tr_->getRot() + rot_);
 }

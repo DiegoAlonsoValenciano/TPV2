@@ -12,17 +12,28 @@ BlackHoleUtils::BlackHoleUtils():rand_(sdlutils().rand()), width_(sdlutils().wid
 void BlackHoleUtils::create_BlackHole()
 {
 	for (int i = 0; i < 6; i++) {
-		int y = 0, x = 0;
 		int radius = rand_.nextInt(50, 150);
-		x = rand_.nextInt(radius, sdlutils().width() - radius);
-		y = rand_.nextInt(radius, sdlutils().height() - radius);
-	
-		Vector2D p = Vector2D(x, y);
-		generateBlackHole(p, radius);
+		generateBlackHole(SpawnPoint(radius), radius);
 	}
 
 }
+Vector2D BlackHoleUtils::  SpawnPoint(int radius)
+{
 
+	int y = 0, x = 0;	
+	Vector2D centro = Vector2D(sdlutils().width() / 2, sdlutils().height() / 2);
+	Vector2D p = Vector2D(x, y);
+	float magn = 0;
+	while (magn<100.0f && magn> ( - 100.0f))
+	{	
+		x = rand_.nextInt(radius, sdlutils().width() - radius);
+		y = rand_.nextInt(radius, sdlutils().height() - radius);
+		p = Vector2D(x, y);
+		magn = (centro - p).magnitude();
+		
+	}
+	return p;
+}
 void BlackHoleUtils::remove_BlackHole()
 {
 	auto mngr = Game::instance()->getMngr();
