@@ -16,7 +16,7 @@
 #include "Game.h"
 
 RunningState::RunningState(AsteroidsFacade* ast_mngr,
-	FighterFacade* fighter_mngr, BlackHoleFacade* black_mngr, MissileFacade* missile_mngr_) :
+	FighterFacade* fighter_mngr, BlackHoleFacade* black_mngr, MissileFacade* missile_mngr_):
 	ihdlr(ih()), //
 	ast_mngr_(ast_mngr), //
 	fighter_mngr_(fighter_mngr), //
@@ -102,6 +102,7 @@ void RunningState::checkCollisions() {
 	auto mngr = Game::instance()->getMngr();
 	auto fighter = mngr->getHandler(ecs::hdlr::FIGHTER);
 	auto& asteroids = mngr->getEntities(ecs::grp::ASTEROIDS);
+	auto& black = mngr->getEntities(ecs::grp::BLACKHOLE);
 	auto fighterTR = mngr->getComponent<Transform>(fighter);
 	auto fighterGUN = mngr->getComponent<Gun>(fighter);
 
@@ -125,7 +126,6 @@ void RunningState::checkCollisions() {
 			onFigherDeath();
 			return;
 		}
-
 		// asteroid with bullets
 		for (Gun::Bullet& b : *fighterGUN) {
 			if (b.used) {
@@ -147,6 +147,8 @@ void RunningState::checkCollisions() {
 		}
 
 	}
+
+
 
 }
 
