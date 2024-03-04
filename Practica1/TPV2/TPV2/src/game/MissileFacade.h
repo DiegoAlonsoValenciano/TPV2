@@ -10,4 +10,5 @@ public:
 	virtual ~MissileFacade() {};
 	virtual void generate_missile() = 0;
 	virtual void remove_all_missile() = 0;
+	virtual void out_of_bounds(ecs::entity_t a) = 0;
 };
