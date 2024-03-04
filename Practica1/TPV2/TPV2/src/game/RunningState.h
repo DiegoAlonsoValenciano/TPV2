@@ -2,8 +2,9 @@
 
 #pragma once
 #include <SDL_stdinc.h>
-
+#include "../sdlutils/VirtualTimer.h"
 #include "GameState.h"
+
 
 class InputHandler;
 class AsteroidsFacade;
@@ -27,6 +28,6 @@ private:
 	BlackHoleFacade* black_mngr_;
 	MissileFacade* missile_mngr_;
 	Uint32 lastTimeGeneratedAsteroids_;
-
+	Uint32 lastTimeGeneratedMissile_;
 };
 
