@@ -9,6 +9,7 @@
 #include "FighterFacade.h"
 #include "BlackHoleFacade.h"
 #include "Game.h"
+
 NewRoundState::NewRoundState(AsteroidsFacade* ast_mngr,
 	FighterFacade* fighter_mngr, BlackHoleFacade* black_mngr) :
 	msg_(sdlutils().msgs().at("newround")), //
