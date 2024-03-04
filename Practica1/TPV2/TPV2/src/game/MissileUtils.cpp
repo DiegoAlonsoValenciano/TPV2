@@ -36,16 +36,16 @@ void MissileUtils::generate_missile() {
 		y = 0;
 		break;
 	case 1:
-		x = width_;
+		x = width_-10;
 		y = 0;
 		break;
 	case 2:
-		x = width_;
-		y = height_;
+		x = width_-10;
+		y = height_-10;
 		break;
 	case 3:
 		x = 0;
-		y = height_;
+		y = height_-10;
 		break;
 	default:
 		break;
