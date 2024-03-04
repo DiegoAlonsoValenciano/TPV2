@@ -11,6 +11,7 @@ public:
 	virtual ~BlackHoleUtils() {};
 	void create_BlackHole() override;
 	void remove_BlackHole() override;
+	Vector2D SpawnPoint(int radius);
 
 private:
 	void generateBlackHole(const Vector2D& p,int radius);
