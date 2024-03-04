@@ -22,7 +22,8 @@ RunningState::RunningState(AsteroidsFacade* ast_mngr,
 	fighter_mngr_(fighter_mngr), //
 	black_mngr_(black_mngr),
 	missile_mngr_(missile_mngr_),
-	lastTimeGeneratedAsteroids_() {
+	lastTimeGeneratedAsteroids_(),
+    lastTimeGeneratedMissile_(){
 }
 
 RunningState::~RunningState() {
@@ -85,11 +86,16 @@ void RunningState::update() {
 		ast_mngr_->create_asteroids(1);
 		lastTimeGeneratedAsteroids_ = sdlutils().virtualTimer().currTime();
 	}
+	if (sdlutils().virtualTimer().currTime() > lastTimeGeneratedMissile_ + 15000) {
+		missile_mngr_->generate_missile();
+		lastTimeGeneratedMissile_ = sdlutils().virtualTimer().currTime();
+	}
 
 }
 
 void RunningState::enter() {
 	lastTimeGeneratedAsteroids_ = sdlutils().virtualTimer().currTime();
+	lastTimeGeneratedMissile_ = sdlutils().virtualTimer().currTime();
 }
 
 void RunningState::checkCollisions() {

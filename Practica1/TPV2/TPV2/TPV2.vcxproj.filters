@@ -198,13 +198,13 @@
     <ClInclude Include="src\game\MissileFacade.h">
       <Filter>Header Files\game</Filter>
     </ClInclude>
-    <ClInclude Include="MissileUtils.h">
-      <Filter>Header Files\game</Filter>
-    </ClInclude>
     <ClInclude Include="src\game\BlackHoleUtils.h">
       <Filter>Header Files\game</Filter>
     </ClInclude>
     <ClInclude Include="src\game\BlackHoleFacade.h">
+      <Filter>Header Files\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\MissileUtils.h">
       <Filter>Header Files\game</Filter>
     </ClInclude>
   </ItemGroup>
