@@ -170,8 +170,6 @@ void RunningState::checkCollisions() {
 		     }
 		}
 
-
-
 	}
 
 	auto num_of_missiles = missiles.size();
