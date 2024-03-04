@@ -16,7 +16,7 @@
 #include "Game.h"
 
 RunningState::RunningState(AsteroidsFacade* ast_mngr,
-	FighterFacade* fighter_mngr, BlackHoleFacade* black_mngr, MissileFacade* missile_mngr_) :
+	FighterFacade* fighter_mngr, BlackHoleFacade* black_mngr, MissileFacade* missile_mngr_):
 	ihdlr(ih()), //
 	ast_mngr_(ast_mngr), //
 	fighter_mngr_(fighter_mngr), //
