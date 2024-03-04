@@ -103,6 +103,7 @@ void RunningState::checkCollisions() {
 	auto fighter = mngr->getHandler(ecs::hdlr::FIGHTER);
 	auto& asteroids = mngr->getEntities(ecs::grp::ASTEROIDS);
 	auto& black = mngr->getEntities(ecs::grp::BLACKHOLE);
+	auto& missiles = mngr->getEntities(ecs::grp::MISSILE);
 	auto fighterTR = mngr->getComponent<Transform>(fighter);
 	auto fighterGUN = mngr->getComponent<Gun>(fighter);
 
@@ -139,6 +140,48 @@ void RunningState::checkCollisions() {
 					aTR->getHeight(), //
 					aTR->getRot())) {
 					ast_mngr_->split_astroid(a);
+					b.used = false;
+					sdlutils().soundEffects().at("explosion").play();
+					continue;
+				}
+			}
+		}
+
+	}
+
+	auto num_of_missiles = missiles.size();
+	for (auto i = 0u; i < num_of_missiles; i++) {
+		auto a = missiles[i];
+		if (!mngr->isAlive(a))
+			continue;
+
+		// asteroid with fighter
+		auto aTR = mngr->getComponent<Transform>(a);
+		if (Collisions::collidesWithRotation( //
+			fighterTR->getPos(), //
+			fighterTR->getWidth(), //
+			fighterTR->getHeight(), //
+			fighterTR->getRot(), //
+			aTR->getPos(), //
+			aTR->getWidth(), //
+			aTR->getHeight(), //
+			aTR->getRot())) {
+			onFigherDeath();
+			return;
+		}
+		// asteroid with bullets
+		for (Gun::Bullet& b : *fighterGUN) {
+			if (b.used) {
+				if (Collisions::collidesWithRotation( //
+					b.pos, //
+					b.width, //
+					b.height, //
+					b.rot, //
+					aTR->getPos(), //
+					aTR->getWidth(), //
+					aTR->getHeight(), //
+					aTR->getRot())) {
+					mngr->setAlive(a, false);
 					b.used = false;
 					sdlutils().soundEffects().at("explosion").play();
 					continue;

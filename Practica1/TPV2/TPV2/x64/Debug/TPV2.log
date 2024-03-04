@@ -1,7 +1,9 @@
 ﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8004: El directorio Output no termina con una barra diagonal final. Esta instancia de compilación agregará la barra diagonal porque es necesaria para que se pueda evaluar correctamente el directorio Output.
   RunningState.cpp
+C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\game\RunningState.cpp(136,7): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
 C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\game\RunningState.cpp(135,7): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
-C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\game\RunningState.cpp(134,7): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\game\RunningState.cpp(178,7): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\game\RunningState.cpp(177,7): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
 C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(51,32): warning C4101: 'e': variable local sin referencia
   (compilando archivo de origen "src/game/RunningState.cpp")
   C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\sdlutils\SDLUtils.h(51,32):
@@ -14,7 +16,7 @@ C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\
           [
               T=SoundEffect
           ]
-  		C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\game\RunningState.cpp(143,52):
+  		C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\TPV2\src\game\RunningState.cpp(144,52):
   		vea la primera referencia a “SDLUtils::map_access_wrapper<SoundEffect>::at” en “RunningState::checkCollisions”
   
   TPV2.vcxproj -> C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica1\TPV2\bin\TPV2Debug.exe
