@@ -1,6 +1,7 @@
 #include "BlackHoleUtils.h"
 #include "../components/Image.h"
 #include "../components/Transform.h"
+#include "../components/BlackRotation.h"
 #include "../ecs/Manager.h"
 #include "../sdlutils/SDLUtils.h"
 #include "Game.h"
@@ -37,5 +38,6 @@ void BlackHoleUtils::generateBlackHole(const Vector2D& p, int radius)
 	auto a = mngr->addEntity(ecs::grp::BLACKHOLE);
 	int rot = rand_.nextInt(5, 10);
 	mngr->addComponent<Transform>(a, p, Vector2D(0, 0), radius, radius, rot);
+	mngr->addComponent<BlackRotation>(a);
 	mngr->addComponent<Image>(a, &sdlutils().images().at("black-hole"));
 }

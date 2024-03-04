@@ -79,7 +79,7 @@ void AsteroidsUtils::generateAsteroid(const Vector2D &p, const Vector2D &v,
 	auto a = mngr->addEntity(ecs::grp::ASTEROIDS);
 
 	mngr->addComponent<Transform>(a, p, v, 10 + 5 * g, 10 + 5 * g, 0.0f);
-	mngr->addComponent<ShowAtOpossiteSide>(a);
+	mngr->addComponent<ShowAtOppositeSide>(a);
 	mngr->addComponent<Generations>(a, g);
 
 	mngr->addComponent<ImageWithFrames>(a, //

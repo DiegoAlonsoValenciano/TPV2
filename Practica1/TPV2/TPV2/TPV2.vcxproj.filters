@@ -198,14 +198,17 @@
     <ClInclude Include="src\game\MissileFacade.h">
       <Filter>Header Files\game</Filter>
     </ClInclude>
-    <ClInclude Include="MissileUtils.h">
-      <Filter>Header Files\game</Filter>
-    </ClInclude>
     <ClInclude Include="src\game\BlackHoleUtils.h">
       <Filter>Header Files\game</Filter>
     </ClInclude>
     <ClInclude Include="src\game\BlackHoleFacade.h">
       <Filter>Header Files\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\MissileUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\components\BlackRotation.h">
+      <Filter>Header Files\components</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -301,6 +304,9 @@
     </ClCompile>
     <ClCompile Include="src\game\BlackHoleUtils.cpp">
       <Filter>Source Files\game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\components\BlackRotation.cpp">
+      <Filter>Source Files\components</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
