@@ -70,3 +70,11 @@ void MissileUtils::generate_missile() {
 	mngr->addComponent<Image>(m, &sdlutils().images().at("missle"));
 
 }
+
+void MissileUtils::out_of_bounds(ecs::entity_t a) {
+	auto mngr = Game::instance()->getMngr();
+	auto tr = mngr->getComponent<Transform>(a);
+	if (tr->getPos().getX() + tr->getWidth() < 0.0f || tr->getPos().getY() + tr->getHeight() < 0.0f || tr->getPos().getX() > width_ || tr->getPos().getY() > height_) {
+		mngr->setAlive(a, false);
+	}
+}

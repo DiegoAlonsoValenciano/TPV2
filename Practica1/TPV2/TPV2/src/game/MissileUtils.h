@@ -12,6 +12,7 @@ public:
 	virtual ~MissileUtils();
 	void generate_missile() override;
 	void remove_all_missile() override;
+	void out_of_bounds(ecs::entity_t a) override;
 private:
 	RandomNumberGenerator& rand_;
 	int width_;

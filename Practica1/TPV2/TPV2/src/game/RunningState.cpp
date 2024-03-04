@@ -192,10 +192,6 @@ void RunningState::checkCollisions() {
 			onFigherDeath();
 			return;
 		}
-		if (aTR->getPos().getX()+ aTR->getWidth() < 0.0f || aTR->getPos().getY()+aTR->getHeight() < 0.0f || aTR->getPos().getX() > sdlutils().width() || aTR->getPos().getY() > sdlutils().height()) {
-			mngr->setAlive(a, false);
-			return;
-		}
 		// asteroid with bullets
 		for (Gun::Bullet& b : *fighterGUN) {
 			if (b.used) {
@@ -215,7 +211,10 @@ void RunningState::checkCollisions() {
 				}
 			}
 		}
-
+		if (mngr->isAlive(a)) {
+			missile_mngr_->out_of_bounds(a);
+			continue;
+		}
 	}
 
 	auto num_of_blackholes = black.size();
