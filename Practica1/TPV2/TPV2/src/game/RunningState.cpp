@@ -87,6 +87,7 @@ void RunningState::checkCollisions() {
 	auto mngr = Game::instance()->getMngr();
 	auto fighter = mngr->getHandler(ecs::hdlr::FIGHTER);
 	auto& asteroids = mngr->getEntities(ecs::grp::ASTEROIDS);
+	auto& black = mngr->getEntities(ecs::grp::BLACKHOLE);
 	auto fighterTR = mngr->getComponent<Transform>(fighter);
 	auto fighterGUN = mngr->getComponent<Gun>(fighter);
 
@@ -110,7 +111,6 @@ void RunningState::checkCollisions() {
 			onFigherDeath();
 			return;
 		}
-
 		// asteroid with bullets
 		for (Gun::Bullet& b : *fighterGUN) {
 			if (b.used) {
@@ -132,6 +132,8 @@ void RunningState::checkCollisions() {
 		}
 
 	}
+
+
 
 }
 
