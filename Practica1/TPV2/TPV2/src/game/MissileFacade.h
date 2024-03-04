@@ -6,8 +6,8 @@
 class MissileFacade
 {
 public:
-	MissileFacade(){}
-	virtual ~MissileFacade(){}
+	MissileFacade() {};
+	virtual ~MissileFacade() {};
 	virtual void generate_missile() = 0;
 	virtual void remove_all_missile() = 0;
 };
