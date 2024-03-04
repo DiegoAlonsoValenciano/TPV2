@@ -2,6 +2,7 @@
 #include "../ecs/Component.h"
 
 class Transform;
+class RandomNumberGenerator;
 
 class BlackRotation : public ecs::Component {
 public:
@@ -14,5 +15,6 @@ public:
 private:
 	Transform* tr_;
 	int rot_;
+	RandomNumberGenerator& rand_;
 };
 

@@ -44,7 +44,7 @@ void FighterUtils::create_fighter() {
 	mngr_->addComponent<Image>(fighter, &sdlutils().images().at("fighter"));
 	mngr_->addComponent<FighterCtrl>(fighter);
 	mngr_->addComponent<DeAcceleration>(fighter);
-	mngr_->addComponent<ShowAtOpossiteSide>(fighter);
+	mngr_->addComponent<ShowAtOppositeSide>(fighter);
 	mngr_->addComponent<Health>(fighter);
 	mngr_->addComponent<Gun>(fighter);
 	reset_fighter();

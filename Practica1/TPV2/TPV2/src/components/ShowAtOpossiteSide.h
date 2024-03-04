@@ -5,12 +5,12 @@
 
 class Transform;
 
-class ShowAtOpossiteSide: public ecs::Component {
+class ShowAtOppositeSide: public ecs::Component {
 public:
 	__CMPID_DECL__(ecs::cmp::SHOWATOPOSSITESIDE)
 
-	ShowAtOpossiteSide();
-	virtual ~ShowAtOpossiteSide();
+	ShowAtOppositeSide();
+	virtual ~ShowAtOppositeSide();
 	void initComponent() override;
 	void update() override;
 private:

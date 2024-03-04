@@ -205,7 +205,14 @@
       <Filter>Header Files\game</Filter>
     </ClInclude>
     <ClInclude Include="src\game\MissileUtils.h">
+<<<<<<< HEAD
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\components\BlackRotation.h">
+      <Filter>Header Files\components</Filter>
+=======
       <Filter>Header Files\game</Filter>
+>>>>>>> f725395b0bf831937fe423b61e4419daa87e1e7b
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -301,6 +308,9 @@
     </ClCompile>
     <ClCompile Include="src\game\BlackHoleUtils.cpp">
       <Filter>Source Files\game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\components\BlackRotation.cpp">
+      <Filter>Source Files\components</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

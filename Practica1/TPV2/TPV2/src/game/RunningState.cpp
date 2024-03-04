@@ -61,6 +61,10 @@ void RunningState::update() {
 	for (auto a : missile) {
 		mngr->update(a);
 	}
+	for (auto a : blackHole)
+	{
+		mngr->update(a);
+	}
 
 	// check collisions
 	checkCollisions();

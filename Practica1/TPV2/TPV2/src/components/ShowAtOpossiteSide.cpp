@@ -6,19 +6,19 @@
 #include "../ecs/Manager.h"
 #include "../sdlutils/SDLUtils.h"
 #include "Transform.h"
-ShowAtOpossiteSide::ShowAtOpossiteSide() :
+ShowAtOppositeSide::ShowAtOppositeSide() :
 		tr_(nullptr) {
 }
 
-ShowAtOpossiteSide::~ShowAtOpossiteSide() {
+ShowAtOppositeSide::~ShowAtOppositeSide() {
 }
 
-void ShowAtOpossiteSide::initComponent() {
+void ShowAtOppositeSide::initComponent() {
 	tr_ = mngr_->getComponent<Transform>(ent_);
 	assert(tr_ != nullptr);
 }
 
-void ShowAtOpossiteSide::update() {
+void ShowAtOppositeSide::update() {
 	auto &pos = tr_->getPos();
 	auto h = tr_->getHeight();
 	auto w = tr_->getWidth();
