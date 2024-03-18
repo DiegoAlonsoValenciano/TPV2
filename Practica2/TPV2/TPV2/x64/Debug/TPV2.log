@@ -1,44 +1,4 @@
 ﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
-  Manager.cpp
-  Game.cpp
-  JSON.cpp
-  JSONValue.cpp
-  json_demo.cpp
-  main.cpp
-  SDLUtils.cpp
-  sdlutils_demo.cpp
-C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\sdlutils\SDLUtils.h(51,32): warning C4101: 'e': unreferenced local variable
-C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\sdlutils\SDLUtils.h(48,13): message : while compiling class template member function 'T &SDLUtils::map_access_wrapper<T>::at(const std::string &)'
-          with
-          [
-              T=Music
-          ]
-C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\sdlutils\sdlutils_demo.cpp(52,30): message : see the first reference to 'SDLUtils::map_access_wrapper<Music>::at' in 'sdlutils_basic_demo'
-C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\sdlutils\SDLUtils.h(202,28): message : see reference to class template instantiation 'SDLUtils::map_access_wrapper<Music>' being compiled
-  SoundEffect.cpp
-  Texture.cpp
-  CollisionsSystem.cpp
-  GameCtrlSystem.cpp
-  PacManSystem.cpp
-C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\sdlutils\SDLUtils.h(51,32): warning C4101: 'e': unreferenced local variable
-C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\sdlutils\SDLUtils.h(48,13): message : while compiling class template member function 'T &SDLUtils::map_access_wrapper<T>::at(const std::string &)'
-          with
-          [
-              T=Texture
-          ]
-C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\systems\PacManSystem.cpp(29,28): message : see the first reference to 'SDLUtils::map_access_wrapper<Texture>::at' in 'PacManSystem::initSystem'
-C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\sdlutils\SDLUtils.h(199,30): message : see reference to class template instantiation 'SDLUtils::map_access_wrapper<Texture>' being compiled
-  RenderSystem.cpp
-C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\systems\RenderSystem.cpp(60,19): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\systems\RenderSystem.cpp(59,18): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\sdlutils\SDLUtils.h(51,32): warning C4101: 'e': unreferenced local variable
-C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\sdlutils\SDLUtils.h(48,13): message : while compiling class template member function 'T &SDLUtils::map_access_wrapper<T>::at(const std::string &)'
-          with
-          [
-              T=Texture
-          ]
-C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\systems\RenderSystem.cpp(65,41): message : see the first reference to 'SDLUtils::map_access_wrapper<Texture>::at' in 'RenderSystem::drawMsgs'
-C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\sdlutils\SDLUtils.h(199,30): message : see reference to class template instantiation 'SDLUtils::map_access_wrapper<Texture>' being compiled
   StarsSystem.cpp
 C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\systems\StarsSystem.cpp(76,24): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\systems\StarsSystem.cpp(76,21): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
@@ -54,7 +14,4 @@ C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\sdlutils\SDLUtils.h(4
           ]
 C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\systems\StarsSystem.cpp(102,49): message : see the first reference to 'SDLUtils::map_access_wrapper<SoundEffect>::at' in 'StarsSystem::onStarEaten'
 C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\sdlutils\SDLUtils.h(201,34): message : see reference to class template instantiation 'SDLUtils::map_access_wrapper<SoundEffect>' being compiled
-  Collisions.cpp
-  Vector2D.cpp
-  Generating Code...
   TPV2.vcxproj -> C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\bin\TPV2Debug.exe

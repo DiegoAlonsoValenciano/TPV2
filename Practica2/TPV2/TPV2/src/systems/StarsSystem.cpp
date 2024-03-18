@@ -77,7 +77,7 @@ void StarsSystem::addStar(unsigned int n) {
 
 		// add an Image Component
 		//
-		mngr_->addComponent<Image>(e, &sdlutils().images().at("star"));
+		mngr_->addComponent<Image>(e, &sdlutils().images().at("sprites"));
 
 		// add a StarMotion component to resize/rotate the star
 		//
