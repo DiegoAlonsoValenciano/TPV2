@@ -18,12 +18,9 @@ public:
 			int x, int y, int w, int h, //
 			int scol, int srow, int ncol, int nrow);
 	virtual ~ImageWithFrames();
-	void initComponent() override;
-	void render() override;
+	//void render() override;
 
-private:
 	Texture *tex_;
-	Transform *tr_;
 	int currFrameR_;
 	int currFrameC_;
 	int x_;

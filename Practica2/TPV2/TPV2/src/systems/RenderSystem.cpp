@@ -40,8 +40,9 @@ void RenderSystem::drawStars() {
 void RenderSystem::drawPacMan() {
 	auto e = mngr_->getHandler(ecs::hdlr::PACMAN);
 	auto tr = mngr_->getComponent<Transform>(e);
-	auto tex = mngr_->getComponent<ImageWithFrames>(e)->tex_;
-	draw(tr, tex);
+	auto iwf = mngr_->getComponent<ImageWithFrames>(e);
+	//draw(tr, tex);
+	drawFrame(tr, iwf);
 }
 
 
@@ -71,4 +72,23 @@ void RenderSystem::draw(Transform *tr, Texture *tex) {
 
 	assert(tex != nullptr);
 	tex->render(dest, tr->rot_);
+}
+
+void RenderSystem::drawFrame(Transform* tr, ImageWithFrames* iwf) {
+	auto tex_ =iwf-> 
+	if (sdlutils().virtualTimer().currTime() > lastFrameChange_ + 50) {
+		lastFrameChange_ = sdlutils().virtualTimer().currTime();
+		currFrameC_ = (currFrameC_ + 1) % ncol_;
+		if (currFrameC_ == 0)
+			currFrameR_ = (currFrameR_ + 1) % nrow_;
+	}
+
+	int r = (currFrameR_ + srow_);
+	int c = (currFrameC_ + scol_);
+	auto src = build_sdlrect(c * frameWidth_ + x_, r * frameHeight_ + y_, w_,
+		h_);
+
+	auto dest = build_sdlrect(tr_->getPos(), tr_->getWidth(), tr_->getHeight());
+
+	tex_->render(src, dest, tr_->getRot());
 }
