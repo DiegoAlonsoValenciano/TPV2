@@ -75,10 +75,7 @@ void RenderSystem::draw(Transform *tr, Texture *tex) {
 }
 
 void RenderSystem::drawFrame(Transform* tr, ImageWithFrames* iwf) {
-	auto tex = iwf -> tex_;
-	auto lastFrameChange = iwf->lastFrameChange_;
-	auto currFrameC = iwf->currFrameC_;
-	auto currFrameR = iwf->currFrameR_;
+
 	auto ncol = iwf->ncol_;
 	auto nrow = iwf->nrow_;
 	auto scol = iwf->scol_;
@@ -89,21 +86,21 @@ void RenderSystem::drawFrame(Transform* tr, ImageWithFrames* iwf) {
 	auto y = iwf->y_;
 	auto w = iwf->w_;
 	auto h = iwf->h_;
-	//if (sdlutils().virtualTimer().currTime() > lastFrameChange + 50) {
-	//	lastFrameChange = sdlutils().virtualTimer().currTime();
-	//	currFrameC = (currFrameC + 1) % ncol;
-	//	if (currFrameC == 0)
-	//		currFrameR = (currFrameR + 1) % nrow;
-	//}
-	currFrameC = (currFrameC + 1) % ncol;
-	if (currFrameC == 0)
-		currFrameR = (currFrameR + 1) % nrow;
-	int r = (currFrameR + srow);
-	int c = (currFrameC + scol);
+	if (sdlutils().virtualTimer().currTime() > iwf->lastFrameChange_ + 50) {
+		iwf->lastFrameChange_ = sdlutils().virtualTimer().currTime();
+		iwf->currFrameC_ = (iwf->currFrameC_ + 1) % ncol;
+		if (iwf->currFrameC_ == 0)
+			iwf->currFrameR_ = (iwf->currFrameR_ + 1) % nrow;
+	}
+	iwf->currFrameC_ = (iwf->currFrameC_ + 1) % ncol;
+	if (iwf->currFrameC_ == 0)
+		iwf->currFrameR_ = (iwf->currFrameR_ + 1) % nrow;
+	int r = (iwf->currFrameR_ + srow);
+	int c = (iwf->currFrameC_ + scol);
 	auto src = build_sdlrect(c * frameWidth + x, r * frameHeight + y, w,
 		h);
 
 	auto dest = build_sdlrect(tr->getPos(), tr->getWidth(), tr->getHeight());
 
-	tex->render(src, dest, tr->getRot());
+	iwf->tex_->render(src, dest, tr->getRot());
 }
