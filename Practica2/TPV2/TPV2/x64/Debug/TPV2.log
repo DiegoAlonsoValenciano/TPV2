@@ -1,19 +1,23 @@
-﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
-  RenderSystem.cpp
-C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\components\ImageWithFrames.h(9,16): warning C4099: 'Transform': type name first seen using 'struct' now seen using 'class'
-C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\systems\RenderSystem.h(7,8): message : see declaration of 'Transform'
-C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\systems\RenderSystem.cpp(61,19): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\systems\RenderSystem.cpp(60,18): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\systems\RenderSystem.cpp(101,3): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\systems\RenderSystem.cpp(100,68): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\systems\RenderSystem.cpp(100,63): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\systems\RenderSystem.cpp(100,42): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\sdlutils\SDLUtils.h(51,32): warning C4101: 'e': unreferenced local variable
-C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\sdlutils\SDLUtils.h(48,13): message : while compiling class template member function 'T &SDLUtils::map_access_wrapper<T>::at(const std::string &)'
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8004: El directorio Output no termina con una barra diagonal final. Esta instancia de compilación agregará la barra diagonal porque es necesaria para que se pueda evaluar correctamente el directorio Output.
+  PacManSystem.cpp
+C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica2\TPV2\TPV2\src\components\ImageWithFrames.h(9,7): warning C4099: 'Transform': nombre de tipo visto anteriormente usando 'struct' ahora se ve usando 'class'
+  (compilando archivo de origen "src/systems/PacManSystem.cpp")
+  C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica2\TPV2\TPV2\src\systems\PacManSystem.h(7,8):
+  vea la declaración de 'Transform'
+  
+C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica2\TPV2\TPV2\src\sdlutils\SDLUtils.h(51,32): warning C4101: 'e': variable local sin referencia
+  (compilando archivo de origen "src/systems/PacManSystem.cpp")
+  C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica2\TPV2\TPV2\src\sdlutils\SDLUtils.h(51,32):
+  el contexto de creación de instancias de la plantilla (el más antiguo primero) es
+  	C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica2\TPV2\TPV2\src\sdlutils\SDLUtils.h(199,30):
+  	Vea la referencia a la creación de una instancia de clase plantilla "SDLUtils::map_access_wrapper<Texture>" que se está compilando
+  	C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica2\TPV2\TPV2\src\sdlutils\SDLUtils.h(48,13):
+  	al compilar la función del miembro clase plantilla "T &SDLUtils::map_access_wrapper<T>::at(const std::string &)"
           with
           [
               T=Texture
           ]
-C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\systems\RenderSystem.cpp(66,41): message : see the first reference to 'SDLUtils::map_access_wrapper<Texture>::at' in 'RenderSystem::drawMsgs'
-C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\sdlutils\SDLUtils.h(199,30): message : see reference to class template instantiation 'SDLUtils::map_access_wrapper<Texture>' being compiled
-  TPV2.vcxproj -> C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\bin\TPV2Debug.exe
+  		C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica2\TPV2\TPV2\src\systems\PacManSystem.cpp(30,38):
+  		vea la primera referencia a “SDLUtils::map_access_wrapper<Texture>::at” en “PacManSystem::initSystem”
+  
+  TPV2.vcxproj -> C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica2\TPV2\bin\TPV2Debug.exe

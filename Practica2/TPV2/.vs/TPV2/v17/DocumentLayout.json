@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\diego\\Desktop\\Diego\\UCM\\2\u00BA\\TPV2\\VisualStudio\\TPV2\\Practica2\\TPV2\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{88C70043-1243-4D22-8F6E-63C6825AE2F8}|TPV2\\TPV2.vcxproj|C:\\Users\\diego\\Desktop\\Diego\\UCM\\2\u00BA\\TPV2\\VisualStudio\\TPV2\\Practica2\\TPV2\\TPV2\\src\\systems\\PacManSystem.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{88C70043-1243-4D22-8F6E-63C6825AE2F8}|TPV2\\TPV2.vcxproj|solutionrelative:TPV2\\src\\systems\\PacManSystem.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{88C70043-1243-4D22-8F6E-63C6825AE2F8}|TPV2\\TPV2.vcxproj|C:\\Users\\diego\\Desktop\\Diego\\UCM\\2\u00BA\\TPV2\\VisualStudio\\TPV2\\Practica2\\TPV2\\TPV2\\src\\systems\\RenderSystem.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{88C70043-1243-4D22-8F6E-63C6825AE2F8}|TPV2\\TPV2.vcxproj|solutionrelative:TPV2\\src\\systems\\RenderSystem.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -30,11 +34,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
+              "Title": "PacManSystem.cpp",
+              "DocumentMoniker": "C:\\Users\\diego\\Desktop\\Diego\\UCM\\2\u00BA\\TPV2\\VisualStudio\\TPV2\\Practica2\\TPV2\\TPV2\\src\\systems\\PacManSystem.cpp",
+              "RelativeDocumentMoniker": "TPV2\\src\\systems\\PacManSystem.cpp",
+              "ToolTip": "C:\\Users\\diego\\Desktop\\Diego\\UCM\\2\u00BA\\TPV2\\VisualStudio\\TPV2\\Practica2\\TPV2\\TPV2\\src\\systems\\PacManSystem.cpp",
+              "RelativeToolTip": "TPV2\\src\\systems\\PacManSystem.cpp",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAADMAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-19T16:01:18.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Image.h",
               "DocumentMoniker": "C:\\Users\\diego\\Desktop\\Diego\\UCM\\2\u00BA\\TPV2\\VisualStudio\\TPV2\\Practica2\\TPV2\\TPV2\\src\\components\\Image.h",
               "RelativeDocumentMoniker": "TPV2\\src\\components\\Image.h",
@@ -42,25 +59,24 @@
               "RelativeToolTip": "TPV2\\src\\components\\Image.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-03-18T17:11:50.097Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-18T17:11:50.097Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "RenderSystem.cpp",
               "DocumentMoniker": "C:\\Users\\diego\\Desktop\\Diego\\UCM\\2\u00BA\\TPV2\\VisualStudio\\TPV2\\Practica2\\TPV2\\TPV2\\src\\systems\\RenderSystem.cpp",
               "RelativeDocumentMoniker": "TPV2\\src\\systems\\RenderSystem.cpp",
               "ToolTip": "C:\\Users\\diego\\Desktop\\Diego\\UCM\\2\u00BA\\TPV2\\VisualStudio\\TPV2\\Practica2\\TPV2\\TPV2\\src\\systems\\RenderSystem.cpp",
               "RelativeToolTip": "TPV2\\src\\systems\\RenderSystem.cpp",
-              "ViewState": "AQIAAEYAAAAAAAAAAAAqwE8AAAAPAAAA",
+              "ViewState": "AQIAADMAAAAAAAAAAAAtwCwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-03-18T17:10:41.584Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "RenderSystem.h",
               "DocumentMoniker": "C:\\Users\\diego\\Desktop\\Diego\\UCM\\2\u00BA\\TPV2\\VisualStudio\\TPV2\\Practica2\\TPV2\\TPV2\\src\\systems\\RenderSystem.h",
               "RelativeDocumentMoniker": "TPV2\\src\\systems\\RenderSystem.h",
@@ -68,12 +84,11 @@
               "RelativeToolTip": "TPV2\\src\\systems\\RenderSystem.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-03-18T17:10:52.071Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-18T17:10:52.071Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ImageWithFrames.cpp",
               "DocumentMoniker": "C:\\Users\\diego\\Desktop\\Diego\\UCM\\2\u00BA\\TPV2\\VisualStudio\\TPV2\\Practica2\\TPV2\\TPV2\\src\\components\\ImageWithFrames.cpp",
               "RelativeDocumentMoniker": "TPV2\\src\\components\\ImageWithFrames.cpp",
@@ -81,12 +96,11 @@
               "RelativeToolTip": "TPV2\\src\\components\\ImageWithFrames.cpp",
               "ViewState": "AQIAABsAAAAAAAAAAAAAADMAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-03-18T16:41:02.871Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-18T16:41:02.871Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ImageWithFrames.h",
               "DocumentMoniker": "C:\\Users\\diego\\Desktop\\Diego\\UCM\\2\u00BA\\TPV2\\VisualStudio\\TPV2\\Practica2\\TPV2\\TPV2\\src\\components\\ImageWithFrames.h",
               "RelativeDocumentMoniker": "TPV2\\src\\components\\ImageWithFrames.h",
@@ -94,8 +108,7 @@
               "RelativeToolTip": "TPV2\\src\\components\\ImageWithFrames.h",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAABUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-03-18T16:40:02.435Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-18T16:40:02.435Z"
             }
           ]
         }
