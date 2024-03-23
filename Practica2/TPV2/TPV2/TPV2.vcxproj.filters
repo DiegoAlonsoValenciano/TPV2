@@ -117,7 +117,7 @@
     <ClInclude Include="src\utils\ptr_iterator.h">
       <Filter>Header Files\utils</Filter>
     </ClInclude>
-    <ClInclude Include="src\systems\StarsSystem.h">
+    <ClInclude Include="src\systems\FruitSystem.h">
       <Filter>Header Files\systems</Filter>
     </ClInclude>
     <ClInclude Include="src\systems\CollisionsSystem.h">
@@ -180,6 +180,9 @@
     <ClInclude Include="src\components\ImageWithFrames.h">
       <Filter>Header Files\components</Filter>
     </ClInclude>
+    <ClInclude Include="GhostSystem.h">
+      <Filter>Header Files\systems</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\json\JSONValue.cpp">
@@ -224,7 +227,7 @@
     <ClCompile Include="src\systems\RenderSystem.cpp">
       <Filter>Source Files\systems</Filter>
     </ClCompile>
-    <ClCompile Include="src\systems\StarsSystem.cpp">
+    <ClCompile Include="src\systems\FruitSystem.cpp">
       <Filter>Source Files\systems</Filter>
     </ClCompile>
     <ClCompile Include="src\game\Game.cpp">
@@ -235,6 +238,9 @@
     </ClCompile>
     <ClCompile Include="src\components\ImageWithFrames.cpp">
       <Filter>Source Files\components</Filter>
+    </ClCompile>
+    <ClCompile Include="GhostSystem.cpp">
+      <Filter>Source Files\systems</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
