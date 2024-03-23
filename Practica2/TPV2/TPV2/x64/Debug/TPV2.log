@@ -4,10 +4,10 @@ C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\components\ImageWithF
 C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\systems\RenderSystem.h(7,8): message : see declaration of 'Transform'
 C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\systems\RenderSystem.cpp(62,19): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\systems\RenderSystem.cpp(61,18): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\systems\RenderSystem.cpp(104,3): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\systems\RenderSystem.cpp(103,68): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\systems\RenderSystem.cpp(103,63): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\systems\RenderSystem.cpp(103,42): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\systems\RenderSystem.cpp(101,4): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\systems\RenderSystem.cpp(100,69): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\systems\RenderSystem.cpp(100,64): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\systems\RenderSystem.cpp(100,43): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\sdlutils\SDLUtils.h(51,32): warning C4101: 'e': unreferenced local variable
 C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\sdlutils\SDLUtils.h(48,13): message : while compiling class template member function 'T &SDLUtils::map_access_wrapper<T>::at(const std::string &)'
           with

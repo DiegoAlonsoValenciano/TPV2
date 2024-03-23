@@ -87,22 +87,17 @@ void RenderSystem::drawFrame(Transform* tr, ImageWithFrames* iwf) {
 	auto y = iwf->y_;
 	auto w = iwf->w_;
 	auto h = iwf->h_;
-	if (sdlutils().virtualTimer().currTime()/10000 > iwf->lastFrameChange_ + 50) {
-		std::cout << sdlutils().virtualTimer().currTime()<<std::endl;
-		std::cout << iwf->lastFrameChange_<<std::endl;
+	if (sdlutils().virtualTimer().currTime()> iwf->lastFrameChange_ + 50) {
 		iwf->lastFrameChange_ = sdlutils().virtualTimer().currTime();
 		iwf->currFrameC_ = (iwf->currFrameC_ + 1) % ncol;
 		if (iwf->currFrameC_ == 0)
 			iwf->currFrameR_ = (iwf->currFrameR_ + 1) % nrow;
 	}
-	iwf->currFrameC_ = (iwf->currFrameC_ + 1) % ncol;
-	if (iwf->currFrameC_ == 0)
-		iwf->currFrameR_ = (iwf->currFrameR_ + 1) % nrow;
-	int r = (iwf->currFrameR_ + srow);
-	int c = (iwf->currFrameC_ + scol);
-	auto src = build_sdlrect(c * frameWidth + x, r * frameHeight + y, w,
-		h);
-
+		int r = (iwf->currFrameR_ + srow);
+		int c = (iwf->currFrameC_ + scol);
+		auto src = build_sdlrect(c * frameWidth + x, r * frameHeight + y, w,
+			h);
+	
 	auto dest = build_sdlrect(tr->getPos(), tr->getWidth(), tr->getHeight());
 
 	iwf->tex_->render(src, dest, tr->getRot());
