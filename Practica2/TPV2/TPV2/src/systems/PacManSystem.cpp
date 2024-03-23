@@ -2,7 +2,6 @@
 
 #include "PacManSystem.h"
 
-#include "../components/Image.h"
 #include"../components//ImageWithFrames.h"
 #include "../components/Transform.h"
 #include "../ecs/Manager.h"

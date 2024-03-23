@@ -3,7 +3,7 @@
 #include "StarsSystem.h"
 
 #include <algorithm>
-#include "../components/Image.h"
+#include"../components//ImageWithFrames.h"
 #include "../components/Points.h"
 #include "../components/StarMotion.h"
 #include "../components/Transform.h"
@@ -77,7 +77,7 @@ void StarsSystem::addStar(unsigned int n) {
 
 		// add an Image Component
 		//
-		mngr_->addComponent<Image>(e, &sdlutils().images().at("sprites"));
+		mngr_->addComponent<ImageWithFrames>(e, &sdlutils().images().at("sprites"),8, 8, 0, 0, 128, 128, 1, 4, 1, 1);
 
 		// add a StarMotion component to resize/rotate the star
 		//

@@ -32,8 +32,9 @@ void RenderSystem::drawStars() {
 	for (auto e : mngr_->getEntities(ecs::grp::STARS)) {
 
 		auto tr = mngr_->getComponent<Transform>(e);
-		auto tex = mngr_->getComponent<Image>(e)->tex_;
-		draw(tr, tex);
+		auto tex = mngr_->getComponent<ImageWithFrames>(e)->tex_;
+		auto iwf = mngr_->getComponent<ImageWithFrames>(e);
+		drawFrame(tr,iwf);
 	}
 }
 
@@ -86,7 +87,9 @@ void RenderSystem::drawFrame(Transform* tr, ImageWithFrames* iwf) {
 	auto y = iwf->y_;
 	auto w = iwf->w_;
 	auto h = iwf->h_;
-	if (sdlutils().virtualTimer().currTime() > iwf->lastFrameChange_ + 50) {
+	if (sdlutils().virtualTimer().currTime()/10000 > iwf->lastFrameChange_ + 50) {
+		std::cout << sdlutils().virtualTimer().currTime()<<std::endl;
+		std::cout << iwf->lastFrameChange_<<std::endl;
 		iwf->lastFrameChange_ = sdlutils().virtualTimer().currTime();
 		iwf->currFrameC_ = (iwf->currFrameC_ + 1) % ncol;
 		if (iwf->currFrameC_ == 0)
