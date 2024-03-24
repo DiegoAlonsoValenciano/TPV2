@@ -3,11 +3,17 @@
 #pragma once
 
 #include <vector>
+#include "../utils/Singleton.h"
 
 #include "../ecs/ecs.h"
 
-class Game {
+class Game: public Singleton<Game> {
+	friend Singleton<Game>;
+	Game();
 public:
+	enum State {
+		RUNNING, PAUSED, NEWGAME, NEWROUND, GAMEOVER
+	};
 	Game();
 	virtual ~Game();
 	void init();
