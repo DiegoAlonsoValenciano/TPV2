@@ -3,16 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\diego\\Desktop\\Diego\\UCM\\2\u00BA\\TPV2\\VisualStudio\\TPV2\\Practica2\\TPV2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{88C70043-1243-4D22-8F6E-63C6825AE2F8}|TPV2\\TPV2.vcxproj|C:\\Users\\diego\\Desktop\\Diego\\UCM\\2\u00BA\\TPV2\\VisualStudio\\TPV2\\Practica2\\TPV2\\TPV2\\src\\game\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{88C70043-1243-4D22-8F6E-63C6825AE2F8}|TPV2\\TPV2.vcxproj|solutionrelative:TPV2\\src\\game\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{88C70043-1243-4D22-8F6E-63C6825AE2F8}|TPV2\\TPV2.vcxproj|C:\\Users\\diego\\Desktop\\Diego\\UCM\\2\u00BA\\TPV2\\VisualStudio\\TPV2\\Practica2\\TPV2\\TPV2\\src\\game\\NewRoundState.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{88C70043-1243-4D22-8F6E-63C6825AE2F8}|TPV2\\TPV2.vcxproj|solutionrelative:TPV2\\src\\game\\NewRoundState.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{88C70043-1243-4D22-8F6E-63C6825AE2F8}|TPV2\\TPV2.vcxproj|C:\\Users\\diego\\Desktop\\Diego\\UCM\\2\u00BA\\TPV2\\VisualStudio\\TPV2\\Practica2\\TPV2\\TPV2\\src\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{88C70043-1243-4D22-8F6E-63C6825AE2F8}|TPV2\\TPV2.vcxproj|solutionrelative:TPV2\\src\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{88C70043-1243-4D22-8F6E-63C6825AE2F8}|TPV2\\TPV2.vcxproj|C:\\Users\\diego\\Desktop\\Diego\\UCM\\2\u00BA\\TPV2\\VisualStudio\\TPV2\\Practica2\\TPV2\\TPV2\\src\\game\\NewRoundState.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{88C70043-1243-4D22-8F6E-63C6825AE2F8}|TPV2\\TPV2.vcxproj|solutionrelative:TPV2\\src\\game\\NewRoundState.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{88C70043-1243-4D22-8F6E-63C6825AE2F8}|TPV2\\TPV2.vcxproj|C:\\Users\\diego\\Desktop\\Diego\\UCM\\2\u00BA\\TPV2\\VisualStudio\\TPV2\\Practica2\\TPV2\\TPV2\\src\\game\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{88C70043-1243-4D22-8F6E-63C6825AE2F8}|TPV2\\TPV2.vcxproj|solutionrelative:TPV2\\src\\game\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88C70043-1243-4D22-8F6E-63C6825AE2F8}|TPV2\\TPV2.vcxproj|C:\\Users\\diego\\Desktop\\Diego\\UCM\\2\u00BA\\TPV2\\VisualStudio\\TPV2\\Practica2\\TPV2\\TPV2\\src\\game\\GameOverState.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{88C70043-1243-4D22-8F6E-63C6825AE2F8}|TPV2\\TPV2.vcxproj|solutionrelative:TPV2\\src\\game\\GameOverState.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88C70043-1243-4D22-8F6E-63C6825AE2F8}|TPV2\\TPV2.vcxproj|C:\\Users\\diego\\Desktop\\Diego\\UCM\\2\u00BA\\TPV2\\VisualStudio\\TPV2\\Practica2\\TPV2\\TPV2\\src\\game\\GameOverState.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{88C70043-1243-4D22-8F6E-63C6825AE2F8}|TPV2\\TPV2.vcxproj|solutionrelative:TPV2\\src\\game\\GameOverState.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88C70043-1243-4D22-8F6E-63C6825AE2F8}|TPV2\\TPV2.vcxproj|C:\\Users\\diego\\Desktop\\Diego\\UCM\\2\u00BA\\TPV2\\VisualStudio\\TPV2\\Practica2\\TPV2\\TPV2\\src\\game\\NewGameState.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{88C70043-1243-4D22-8F6E-63C6825AE2F8}|TPV2\\TPV2.vcxproj|solutionrelative:TPV2\\src\\game\\NewGameState.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88C70043-1243-4D22-8F6E-63C6825AE2F8}|TPV2\\TPV2.vcxproj|C:\\Users\\diego\\Desktop\\Diego\\UCM\\2\u00BA\\TPV2\\VisualStudio\\TPV2\\Practica2\\TPV2\\TPV2\\src\\game\\NewGameState.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{88C70043-1243-4D22-8F6E-63C6825AE2F8}|TPV2\\TPV2.vcxproj|solutionrelative:TPV2\\src\\game\\NewGameState.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88C70043-1243-4D22-8F6E-63C6825AE2F8}|TPV2\\TPV2.vcxproj|C:\\Users\\diego\\Desktop\\Diego\\UCM\\2\u00BA\\TPV2\\VisualStudio\\TPV2\\Practica2\\TPV2\\TPV2\\src\\game\\messages_defs.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{88C70043-1243-4D22-8F6E-63C6825AE2F8}|TPV2\\TPV2.vcxproj|solutionrelative:TPV2\\src\\game\\messages_defs.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88C70043-1243-4D22-8F6E-63C6825AE2F8}|TPV2\\TPV2.vcxproj|C:\\Users\\diego\\Desktop\\Diego\\UCM\\2\u00BA\\TPV2\\VisualStudio\\TPV2\\Practica2\\TPV2\\TPV2\\src\\game\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{88C70043-1243-4D22-8F6E-63C6825AE2F8}|TPV2\\TPV2.vcxproj|solutionrelative:TPV2\\src\\game\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{88C70043-1243-4D22-8F6E-63C6825AE2F8}|TPV2\\TPV2.vcxproj|C:\\Users\\diego\\Desktop\\Diego\\UCM\\2\u00BA\\TPV2\\VisualStudio\\TPV2\\Practica2\\TPV2\\TPV2\\src\\systems\\FruitSystem.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -21,10 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{88C70043-1243-4D22-8F6E-63C6825AE2F8}|TPV2\\TPV2.vcxproj|C:\\Users\\diego\\Desktop\\Diego\\UCM\\2\u00BA\\TPV2\\VisualStudio\\TPV2\\Practica2\\TPV2\\TPV2\\src\\systems\\FruitSystem.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{88C70043-1243-4D22-8F6E-63C6825AE2F8}|TPV2\\TPV2.vcxproj|solutionrelative:TPV2\\src\\systems\\FruitSystem.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88C70043-1243-4D22-8F6E-63C6825AE2F8}|TPV2\\TPV2.vcxproj|C:\\Users\\diego\\Desktop\\Diego\\UCM\\2\u00BA\\TPV2\\VisualStudio\\TPV2\\Practica2\\TPV2\\TPV2\\src\\game\\messages_defs.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{88C70043-1243-4D22-8F6E-63C6825AE2F8}|TPV2\\TPV2.vcxproj|solutionrelative:TPV2\\src\\game\\messages_defs.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{88C70043-1243-4D22-8F6E-63C6825AE2F8}|TPV2\\TPV2.vcxproj|C:\\Users\\diego\\Desktop\\Diego\\UCM\\2\u00BA\\TPV2\\VisualStudio\\TPV2\\Practica2\\TPV2\\TPV2\\src\\game\\ecs_defs.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -50,15 +70,80 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\diego\\Desktop\\Diego\\UCM\\2\u00BA\\TPV2\\VisualStudio\\TPV2\\Practica2\\TPV2\\TPV2\\src\\main.cpp",
-              "RelativeDocumentMoniker": "TPV2\\src\\main.cpp",
-              "ToolTip": "C:\\Users\\diego\\Desktop\\Diego\\UCM\\2\u00BA\\TPV2\\VisualStudio\\TPV2\\Practica2\\TPV2\\TPV2\\src\\main.cpp",
-              "RelativeToolTip": "TPV2\\src\\main.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAMAAAA",
+              "DocumentIndex": 3,
+              "Title": "GameOverState.cpp",
+              "DocumentMoniker": "C:\\Users\\diego\\Desktop\\Diego\\UCM\\2\u00BA\\TPV2\\VisualStudio\\TPV2\\Practica2\\TPV2\\TPV2\\src\\game\\GameOverState.cpp",
+              "RelativeDocumentMoniker": "TPV2\\src\\game\\GameOverState.cpp",
+              "ToolTip": "C:\\Users\\diego\\Desktop\\Diego\\UCM\\2\u00BA\\TPV2\\VisualStudio\\TPV2\\Practica2\\TPV2\\TPV2\\src\\game\\GameOverState.cpp",
+              "RelativeToolTip": "TPV2\\src\\game\\GameOverState.cpp",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAA4AAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-03-24T16:43:49.976Z",
+              "WhenOpened": "2024-03-24T18:25:05.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GameOverState.h",
+              "DocumentMoniker": "C:\\Users\\diego\\Desktop\\Diego\\UCM\\2\u00BA\\TPV2\\VisualStudio\\TPV2\\Practica2\\TPV2\\TPV2\\src\\game\\GameOverState.h",
+              "RelativeDocumentMoniker": "TPV2\\src\\game\\GameOverState.h",
+              "ToolTip": "C:\\Users\\diego\\Desktop\\Diego\\UCM\\2\u00BA\\TPV2\\VisualStudio\\TPV2\\Practica2\\TPV2\\TPV2\\src\\game\\GameOverState.h",
+              "RelativeToolTip": "TPV2\\src\\game\\GameOverState.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-24T18:25:05.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NewRoundState.cpp",
+              "DocumentMoniker": "C:\\Users\\diego\\Desktop\\Diego\\UCM\\2\u00BA\\TPV2\\VisualStudio\\TPV2\\Practica2\\TPV2\\TPV2\\src\\game\\NewRoundState.cpp",
+              "RelativeDocumentMoniker": "TPV2\\src\\game\\NewRoundState.cpp",
+              "ToolTip": "C:\\Users\\diego\\Desktop\\Diego\\UCM\\2\u00BA\\TPV2\\VisualStudio\\TPV2\\Practica2\\TPV2\\TPV2\\src\\game\\NewRoundState.cpp",
+              "RelativeToolTip": "TPV2\\src\\game\\NewRoundState.cpp",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABgAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-24T18:24:59.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NewRoundState.h",
+              "DocumentMoniker": "C:\\Users\\diego\\Desktop\\Diego\\UCM\\2\u00BA\\TPV2\\VisualStudio\\TPV2\\Practica2\\TPV2\\TPV2\\src\\game\\NewRoundState.h",
+              "RelativeDocumentMoniker": "TPV2\\src\\game\\NewRoundState.h",
+              "ToolTip": "C:\\Users\\diego\\Desktop\\Diego\\UCM\\2\u00BA\\TPV2\\VisualStudio\\TPV2\\Practica2\\TPV2\\TPV2\\src\\game\\NewRoundState.h",
+              "RelativeToolTip": "TPV2\\src\\game\\NewRoundState.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-24T18:25:03.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NewGameState.cpp",
+              "DocumentMoniker": "C:\\Users\\diego\\Desktop\\Diego\\UCM\\2\u00BA\\TPV2\\VisualStudio\\TPV2\\Practica2\\TPV2\\TPV2\\src\\game\\NewGameState.cpp",
+              "RelativeDocumentMoniker": "TPV2\\src\\game\\NewGameState.cpp",
+              "ToolTip": "C:\\Users\\diego\\Desktop\\Diego\\UCM\\2\u00BA\\TPV2\\VisualStudio\\TPV2\\Practica2\\TPV2\\TPV2\\src\\game\\NewGameState.cpp",
+              "RelativeToolTip": "TPV2\\src\\game\\NewGameState.cpp",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-24T18:15:21.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NewGameState.h",
+              "DocumentMoniker": "C:\\Users\\diego\\Desktop\\Diego\\UCM\\2\u00BA\\TPV2\\VisualStudio\\TPV2\\Practica2\\TPV2\\TPV2\\src\\game\\NewGameState.h",
+              "RelativeDocumentMoniker": "TPV2\\src\\game\\NewGameState.h",
+              "ToolTip": "C:\\Users\\diego\\Desktop\\Diego\\UCM\\2\u00BA\\TPV2\\VisualStudio\\TPV2\\Practica2\\TPV2\\TPV2\\src\\game\\NewGameState.h",
+              "RelativeToolTip": "TPV2\\src\\game\\NewGameState.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-24T18:15:19.352Z",
               "EditorCaption": ""
             },
             {
@@ -69,27 +154,27 @@
               "RelativeDocumentMoniker": "TPV2\\src\\game\\Game.cpp",
               "ToolTip": "C:\\Users\\diego\\Desktop\\Diego\\UCM\\2\u00BA\\TPV2\\VisualStudio\\TPV2\\Practica2\\TPV2\\TPV2\\src\\game\\Game.cpp",
               "RelativeToolTip": "TPV2\\src\\game\\Game.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-03-24T16:38:33.461Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
               "Title": "Game.h",
               "DocumentMoniker": "C:\\Users\\diego\\Desktop\\Diego\\UCM\\2\u00BA\\TPV2\\VisualStudio\\TPV2\\Practica2\\TPV2\\TPV2\\src\\game\\Game.h",
               "RelativeDocumentMoniker": "TPV2\\src\\game\\Game.h",
               "ToolTip": "C:\\Users\\diego\\Desktop\\Diego\\UCM\\2\u00BA\\TPV2\\VisualStudio\\TPV2\\Practica2\\TPV2\\TPV2\\src\\game\\Game.h",
               "RelativeToolTip": "TPV2\\src\\game\\Game.h",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAlwA8AAAADAAAA",
+              "ViewState": "AQIAACIAAAAAAAAAAAAlwA8AAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-03-24T16:43:23.392Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "messages_defs.h",
               "DocumentMoniker": "C:\\Users\\diego\\Desktop\\Diego\\UCM\\2\u00BA\\TPV2\\VisualStudio\\TPV2\\Practica2\\TPV2\\TPV2\\src\\game\\messages_defs.h",
               "RelativeDocumentMoniker": "TPV2\\src\\game\\messages_defs.h",
@@ -102,7 +187,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "ecs_defs.h",
               "DocumentMoniker": "C:\\Users\\diego\\Desktop\\Diego\\UCM\\2\u00BA\\TPV2\\VisualStudio\\TPV2\\Practica2\\TPV2\\TPV2\\src\\game\\ecs_defs.h",
               "RelativeDocumentMoniker": "TPV2\\src\\game\\ecs_defs.h",
@@ -110,12 +195,11 @@
               "RelativeToolTip": "TPV2\\src\\game\\ecs_defs.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-03-24T16:37:05.061Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-24T16:37:05.061Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "FruitSystem.cpp",
               "DocumentMoniker": "C:\\Users\\diego\\Desktop\\Diego\\UCM\\2\u00BA\\TPV2\\VisualStudio\\TPV2\\Practica2\\TPV2\\TPV2\\src\\systems\\FruitSystem.cpp",
               "RelativeDocumentMoniker": "TPV2\\src\\systems\\FruitSystem.cpp",
@@ -123,12 +207,11 @@
               "RelativeToolTip": "TPV2\\src\\systems\\FruitSystem.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-03-24T16:35:28.967Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-24T16:35:28.967Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "FruitSystem.h",
               "DocumentMoniker": "C:\\Users\\diego\\Desktop\\Diego\\UCM\\2\u00BA\\TPV2\\VisualStudio\\TPV2\\Practica2\\TPV2\\TPV2\\src\\systems\\FruitSystem.h",
               "RelativeDocumentMoniker": "TPV2\\src\\systems\\FruitSystem.h",
@@ -136,12 +219,11 @@
               "RelativeToolTip": "TPV2\\src\\systems\\FruitSystem.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-03-24T16:35:28.227Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-24T16:35:28.227Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "RenderSystem.cpp",
               "DocumentMoniker": "C:\\Users\\diego\\Desktop\\Diego\\UCM\\2\u00BA\\TPV2\\VisualStudio\\TPV2\\Practica2\\TPV2\\TPV2\\src\\systems\\RenderSystem.cpp",
               "RelativeDocumentMoniker": "TPV2\\src\\systems\\RenderSystem.cpp",
@@ -149,12 +231,11 @@
               "RelativeToolTip": "TPV2\\src\\systems\\RenderSystem.cpp",
               "ViewState": "AQIAAAMAAAAAAAAAAAAtwCwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-03-18T17:10:41.584Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-18T17:10:41.584Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "RenderSystem.h",
               "DocumentMoniker": "C:\\Users\\diego\\Desktop\\Diego\\UCM\\2\u00BA\\TPV2\\VisualStudio\\TPV2\\Practica2\\TPV2\\TPV2\\src\\systems\\RenderSystem.h",
               "RelativeDocumentMoniker": "TPV2\\src\\systems\\RenderSystem.h",
@@ -162,8 +243,7 @@
               "RelativeToolTip": "TPV2\\src\\systems\\RenderSystem.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-03-18T17:10:52.071Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-18T17:10:52.071Z"
             }
           ]
         }

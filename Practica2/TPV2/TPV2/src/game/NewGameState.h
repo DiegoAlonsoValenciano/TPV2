@@ -14,7 +14,7 @@ public:
 	void update() override;
 	void enter() override;
 private:
-	Texture& msg_;
+	Texture &msg_;
 	SDL_Rect dest_;
 	InputHandler& ihdlr;
 };
