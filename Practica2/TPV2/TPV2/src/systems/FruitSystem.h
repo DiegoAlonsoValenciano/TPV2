@@ -17,7 +17,6 @@ public:
 	void recieve(const Message &m) override;
 private:
 	bool milagroso = false;
-	unsigned int starsLimit_;
 	unsigned int currNumOfFruits_;
 	int s = 25;
 };

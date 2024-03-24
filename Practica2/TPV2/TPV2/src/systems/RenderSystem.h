@@ -19,7 +19,6 @@ public:
 private:
 	void drawStars();
 	void drawPacMan();
-	void drawMsgs();
 	void draw(Transform *tr, Texture *tex);
 	void drawFrame(Transform* tr, ImageWithFrames* iwf);
 };

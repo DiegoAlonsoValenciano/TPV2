@@ -168,20 +168,14 @@
     <ClInclude Include="src\components\Image.h">
       <Filter>Header Files\components</Filter>
     </ClInclude>
-    <ClInclude Include="src\components\Points.h">
-      <Filter>Header Files\components</Filter>
-    </ClInclude>
-    <ClInclude Include="src\components\StarMotion.h">
-      <Filter>Header Files\components</Filter>
-    </ClInclude>
     <ClInclude Include="src\components\Transform.h">
       <Filter>Header Files\components</Filter>
     </ClInclude>
     <ClInclude Include="src\components\ImageWithFrames.h">
       <Filter>Header Files\components</Filter>
     </ClInclude>
-    <ClInclude Include="GhostSystem.h">
-      <Filter>Header Files\systems</Filter>
+    <ClInclude Include="src\systems\GhostSystem.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -239,8 +233,8 @@
     <ClCompile Include="src\components\ImageWithFrames.cpp">
       <Filter>Source Files\components</Filter>
     </ClCompile>
-    <ClCompile Include="GhostSystem.cpp">
-      <Filter>Source Files\systems</Filter>
+    <ClCompile Include="src\systems\GhostSystem.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

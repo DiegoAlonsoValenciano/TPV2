@@ -4,14 +4,12 @@
 
 #include <algorithm>
 #include"../components//ImageWithFrames.h"
-#include "../components/StarMotion.h"
 #include "../components/Transform.h"
 #include "../ecs/Manager.h"
 #include "../sdlutils/SDLUtils.h"
 #include "GameCtrlSystem.h"
 
-FruitSystem::FruitSystem() :
-		starsLimit_(30), currNumOfFruits_(0) {
+FruitSystem::FruitSystem() : currNumOfFruits_(0) {
 }
 
 FruitSystem::~FruitSystem() {
@@ -28,17 +26,6 @@ void FruitSystem::update() {
 
 	for (auto i = 0u; i < n; i++) {
 		auto tr = mngr_->getComponent<Transform>(stars[i]);
-		auto starmotion = mngr_->getComponent<StarMotion>(stars[i]);
-
-		if (starmotion->shouldUpdate(currTime)) {
-
-			// check if it should die
-			if (tr->width_ < starmotion->sizeLimit_
-					|| tr->height_ < starmotion->sizeLimit_) {
-				mngr_->setAlive(stars[i], false);
-				currNumOfFruits_--;
-			}
-		}
 	}
 }
 
@@ -71,14 +58,6 @@ void FruitSystem::addFruit(unsigned int n) {
 			//
 			mngr_->addComponent<ImageWithFrames>(e, &sdlutils().images().at("sprites"), 8, 8, 0, 0, 128, 128, 1, 4, 1, 1);
 
-			// add a StarMotion component to resize/rotate the star
-			//
-			auto motion = mngr_->addComponent<StarMotion>(e);
-
-			motion->rot_ = rand.nextInt(5, 10);
-			motion->sizeLimit_ = rand.nextInt(2, 10);
-			motion->updateFreq_ = rand.nextInt(20, 100);
-
 			currNumOfFruits_++;
 		}
 		y = s;
@@ -89,7 +68,6 @@ void FruitSystem::addFruit(unsigned int n) {
 void FruitSystem::onStarEaten(ecs::entity_t e) {
 	mngr_->setAlive(e, false);
 	currNumOfFruits_--;
-
 	// play sound on channel 1 (if there is something playing there
 	// it will be cancelled
 	sdlutils().soundEffects().at("pacman_eat").play(0, 1);

@@ -44,6 +44,10 @@ void Game::init() {
 	gameCtrlSys_ = mngr_->addSystem<GameCtrlSystem>();
 	renderSys_ = mngr_->addSystem<RenderSystem>();
 	collisionSys_ = mngr_->addSystem<CollisionsSystem>();
+	Message m;
+	m.id = _m_CREATE_STARS;
+	m.create_stars_data.n = 5;
+	mngr_->send(m);
 }
 
 void Game::start() {

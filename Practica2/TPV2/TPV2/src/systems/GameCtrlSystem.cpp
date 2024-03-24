@@ -4,8 +4,7 @@
 #include "../ecs/Manager.h"
 #include "../sdlutils/InputHandler.h"
 #include "FruitSystem.h"
-GameCtrlSystem::GameCtrlSystem() :
-		score_() {
+GameCtrlSystem::GameCtrlSystem()  {
 	// TODO Auto-generated constructor stub
 
 }
