@@ -10,6 +10,9 @@
 NewGameState::NewGameState() :
 	msg_(sdlutils().msgs().at("newgame")), //
 	ihdlr(ih()) {
+	float x = (sdlutils().width() - msg_.width()) / 2;
+	float y = (sdlutils().height() - msg_.height()) / 2;
+	dest_ = build_sdlrect(x, y, msg_.width(), msg_.height());
 }
 
 NewGameState::~NewGameState() {
