@@ -13,15 +13,27 @@
 #include "../utils/Vector2D.h"
 #include "../utils/Collisions.h"
 
+#include "GameOverState.h"
+#include "NewGameState.h"
+#include "NewRoundState.h"
+#include "PausedState.h"
+#include "RunningState.h"
+
 using ecs::Manager;
 
 Game::Game() :
-		mngr_(), //
-		pacmanSys_(), //
-		gameCtrlSys_(), //
-		startsSys_(), //
-		renderSys_(), //
-		collisionSys_() {
+	mngr_(), //
+	pacmanSys_(), //
+	gameCtrlSys_(), //
+	startsSys_(), //
+	renderSys_(), //
+	collisionSys_(),
+	current_state_(nullptr), //
+	paused_state_(nullptr), //
+	runing_state_(nullptr), //
+	newgame_state_(nullptr), //
+	newround_state_(nullptr), //
+	gameover_state_(nullptr) {
 
 }
 
@@ -55,7 +67,7 @@ void Game::start() {
 	// a boolean to exit the loop
 	bool exit = false;
 
-	auto &ihdlr = ih();
+	auto& ihdlr = ih();
 
 	while (!exit) {
 		Uint32 startTime = sdlutils().currRealTime();

@@ -12,7 +12,7 @@ public:
 	virtual ~FruitSystem();
 	void initSystem() override;
 	void update() override;
-	void addFruit(unsigned int n);
+	void addFruit();
 	void onStarEaten(ecs::entity_t e);
 	void recieve(const Message &m) override;
 private:

@@ -29,7 +29,7 @@ void FruitSystem::update() {
 	}
 }
 
-void FruitSystem::addFruit(unsigned int n) {
+void FruitSystem::addFruit() {
 
 	// Always use the random number generator provided by SDLUtils
 	//
@@ -79,7 +79,7 @@ void FruitSystem::recieve(const Message &m) {
 		onStarEaten(m.star_eaten_data.e);
 		break;
 	case _m_CREATE_STARS:
-		addFruit(m.create_stars_data.n);
+		addFruit();
 		break;
 	default:
 		break;
