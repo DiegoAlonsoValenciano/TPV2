@@ -60,6 +60,8 @@ void Game::init() {
 	m.id = _m_CREATE_STARS;
 	m.create_stars_data.n = 5;
 	mngr_->send(m);
+	newgame_state_ = new NewGameState();
+	current_state_ = newgame_state_;
 }
 
 void Game::start() {
@@ -80,17 +82,17 @@ void Game::start() {
 			continue;
 		}
 
+		current_state_->update();
+		//pacmanSys_->update();
+		//startsSys_->update();
+		//gameCtrlSys_->update();
+		//collisionSys_->update();
 
-		pacmanSys_->update();
-		startsSys_->update();
-		gameCtrlSys_->update();
-		collisionSys_->update();
+		//mngr_->refresh();
 
-		mngr_->refresh();
-
-		sdlutils().clearRenderer();
-		renderSys_->update();
-		sdlutils().presentRenderer();
+		//sdlutils().clearRenderer();
+		//renderSys_->update();
+		//sdlutils().presentRenderer();
 
 		Uint32 frameTime = sdlutils().currRealTime() - startTime;
 
