@@ -1,23 +1,19 @@
 ﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
-  Game.cpp
-  CollisionsSystem.cpp
-  GameCtrlSystem.cpp
   FruitSystem.cpp
 C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\components\Transform.h(8,17): warning C4099: 'Transform': type name first seen using 'class' now seen using 'struct'
 C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\components\Transform.h(8,8): message : see declaration of 'Transform'
-C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\systems\FruitSystem.cpp(76,24): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\systems\FruitSystem.cpp(76,21): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\systems\FruitSystem.cpp(76,43): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\systems\FruitSystem.cpp(76,40): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\systems\FruitSystem.cpp(86,30): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\systems\FruitSystem.cpp(87,36): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\systems\FruitSystem.cpp(67,25): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\systems\FruitSystem.cpp(67,22): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\systems\FruitSystem.cpp(67,44): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\systems\FruitSystem.cpp(67,41): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\systems\FruitSystem.cpp(78,31): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\systems\FruitSystem.cpp(79,37): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
 C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\sdlutils\SDLUtils.h(51,32): warning C4101: 'e': unreferenced local variable
 C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\sdlutils\SDLUtils.h(48,13): message : while compiling class template member function 'T &SDLUtils::map_access_wrapper<T>::at(const std::string &)'
           with
           [
               T=SoundEffect
           ]
-C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\systems\FruitSystem.cpp(102,49): message : see the first reference to 'SDLUtils::map_access_wrapper<SoundEffect>::at' in 'FruitSystem::onStarEaten'
+C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\systems\FruitSystem.cpp(95,49): message : see the first reference to 'SDLUtils::map_access_wrapper<SoundEffect>::at' in 'FruitSystem::onStarEaten'
 C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\sdlutils\SDLUtils.h(201,34): message : see reference to class template instantiation 'SDLUtils::map_access_wrapper<SoundEffect>' being compiled
-  Generating Code...
   TPV2.vcxproj -> C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\bin\TPV2Debug.exe

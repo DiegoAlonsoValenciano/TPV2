@@ -4,7 +4,6 @@
 
 #include <algorithm>
 #include"../components//ImageWithFrames.h"
-#include "../components/Points.h"
 #include "../components/StarMotion.h"
 #include "../components/Transform.h"
 #include "../ecs/Manager.h"
@@ -12,7 +11,7 @@
 #include "GameCtrlSystem.h"
 
 FruitSystem::FruitSystem() :
-		starsLimit_(30), currNumOfStars_(0) {
+		starsLimit_(30), currNumOfFruits_(0) {
 }
 
 FruitSystem::~FruitSystem() {
@@ -33,69 +32,63 @@ void FruitSystem::update() {
 
 		if (starmotion->shouldUpdate(currTime)) {
 
-			// rotate it
-			tr->rot_ += starmotion->rot_;
-
-			// resize it
-			tr->width_ *= 0.95f;
-			tr->height_ *= 0.95f;
-
 			// check if it should die
 			if (tr->width_ < starmotion->sizeLimit_
 					|| tr->height_ < starmotion->sizeLimit_) {
 				mngr_->setAlive(stars[i], false);
-				currNumOfStars_--;
+				currNumOfFruits_--;
 			}
 		}
 	}
 }
 
-void FruitSystem::addStar(unsigned int n) {
+void FruitSystem::addFruit(unsigned int n) {
 
 	// Always use the random number generator provided by SDLUtils
 	//
 	auto &rand = sdlutils().rand();
+	auto x = s;
+	auto xAdd = (sdlutils().width()) / 8;
+	auto y = s;
+	auto yAdd = (sdlutils().height()) / 6;
 
-	auto limit = std::min( //
-			static_cast<unsigned int>(n), //
-			starsLimit_ - currNumOfStars_);
+	for (auto i = 0u; i <8; i++) {
 
-	for (auto i = 0u; i < limit; i++) {
+		for (auto j = 0u; j < 6; j++)
+		{
+			// add and entity to the manager
+			//
+			auto e = mngr_->addEntity(ecs::grp::STARS);
 
-		// add and entity to the manager
-		//
-		auto e = mngr_->addEntity(ecs::grp::STARS);
+			// add a Transform component, and initialise it with random
+			// size and position
+			//
+			auto tr = mngr_->addComponent<Transform>(e);
+			tr->init(Vector2D(x, y), Vector2D(), s, s, 0.0f);
 
-		// add a Transform component, and initialise it with random
-		// size and position
-		//
-		auto tr = mngr_->addComponent<Transform>(e);
-		auto s = rand.nextInt(50, 100);
-		auto x = rand.nextInt(0, sdlutils().width() - s);
-		auto y = rand.nextInt(0, sdlutils().height() - s);
-		tr->init(Vector2D(x, y), Vector2D(), s, s, 0.0f);
+			y += yAdd;
+			// add an Image Component
+			//
+			mngr_->addComponent<ImageWithFrames>(e, &sdlutils().images().at("sprites"), 8, 8, 0, 0, 128, 128, 1, 4, 1, 1);
 
-		// add an Image Component
-		//
-		mngr_->addComponent<ImageWithFrames>(e, &sdlutils().images().at("sprites"),8, 8, 0, 0, 128, 128, 1, 4, 1, 1);
+			// add a StarMotion component to resize/rotate the star
+			//
+			auto motion = mngr_->addComponent<StarMotion>(e);
 
-		// add a StarMotion component to resize/rotate the star
-		//
-		auto motion = mngr_->addComponent<StarMotion>(e);
+			motion->rot_ = rand.nextInt(5, 10);
+			motion->sizeLimit_ = rand.nextInt(2, 10);
+			motion->updateFreq_ = rand.nextInt(20, 100);
 
-		motion->rot_ = rand.nextInt(5, 10);
-		motion->sizeLimit_ = rand.nextInt(2, 10);
-		motion->updateFreq_ = rand.nextInt(20, 100);
-
-		auto pts = mngr_->addComponent<Points>(e);
-		pts->points_ = rand.nextInt(1, 5);
-		currNumOfStars_++;
+			currNumOfFruits_++;
+		}
+		y = s;
+		x += xAdd;
 	}
 }
 
 void FruitSystem::onStarEaten(ecs::entity_t e) {
 	mngr_->setAlive(e, false);
-	currNumOfStars_--;
+	currNumOfFruits_--;
 
 	// play sound on channel 1 (if there is something playing there
 	// it will be cancelled
@@ -108,7 +101,7 @@ void FruitSystem::recieve(const Message &m) {
 		onStarEaten(m.star_eaten_data.e);
 		break;
 	case _m_CREATE_STARS:
-		addStar(m.create_stars_data.n);
+		addFruit(m.create_stars_data.n);
 		break;
 	default:
 		break;

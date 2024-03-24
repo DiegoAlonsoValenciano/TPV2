@@ -1,8 +1,6 @@
 // This file is part of the course TPV2@UCM - Samir Genaim
 
 #include "GameCtrlSystem.h"
-
-#include "../components/Points.h"
 #include "../ecs/Manager.h"
 #include "../sdlutils/InputHandler.h"
 #include "FruitSystem.h"
@@ -36,7 +34,7 @@ void GameCtrlSystem::update() {
 void GameCtrlSystem::recieve(const Message &m) {
 	switch (m.id) {
 	case _m_STAR_EATEN:
-		score_ += mngr_->getComponent<Points>(m.star_eaten_data.e)->points_;
+		//score_ += mngr_->getComponent<Points>(m.star_eaten_data.e)->points_;
 		break;
 	default:
 		break;
