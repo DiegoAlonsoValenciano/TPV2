@@ -6,7 +6,7 @@
 class FruitSystem: public ecs::System {
 public:
 
-	__SYSID_DECL__(ecs::sys::STARS)
+	__SYSID_DECL__(ecs::sys::FRUIT)
 
 	FruitSystem();
 	virtual ~FruitSystem();

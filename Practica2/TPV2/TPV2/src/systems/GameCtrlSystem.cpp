@@ -27,7 +27,7 @@ void GameCtrlSystem::update() {
 
 void GameCtrlSystem::recieve(const Message &m) {
 	switch (m.id) {
-	case _m_STAR_EATEN:
+	case _m_FRUIT_EATEN:
 		//score_ += mngr_->getComponent<Points>(m.star_eaten_data.e)->points_;
 		break;
 	default:

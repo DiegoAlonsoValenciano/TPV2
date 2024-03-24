@@ -57,8 +57,8 @@ void Game::init() {
 	renderSys_ = mngr_->addSystem<RenderSystem>();
 	collisionSys_ = mngr_->addSystem<CollisionsSystem>();
 	Message m;
-	m.id = _m_CREATE_STARS;
-	m.create_stars_data.n = 5;
+	m.id = _m_CREATE_FRUITS;
+	m.create_fruits_data.n = 5;
 	mngr_->send(m);
 	newgame_state_ = new NewGameState();
 	current_state_ = newgame_state_;

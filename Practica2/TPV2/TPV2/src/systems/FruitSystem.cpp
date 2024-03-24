@@ -21,7 +21,7 @@ void FruitSystem::initSystem() {
 void FruitSystem::update() {
 
 	auto currTime = sdlutils().currRealTime();
-	auto stars = mngr_->getEntities(ecs::grp::STARS);
+	auto stars = mngr_->getEntities(ecs::grp::FRUITS);
 	auto n = stars.size();
 
 	for (auto i = 0u; i < n; i++) {
@@ -45,7 +45,7 @@ void FruitSystem::addFruit() {
 		{
 			// add and entity to the manager
 			//
-			auto e = mngr_->addEntity(ecs::grp::STARS);
+			auto e = mngr_->addEntity(ecs::grp::FRUITS);
 
 			// add a Transform component, and initialise it with random
 			// size and position
@@ -75,10 +75,10 @@ void FruitSystem::onStarEaten(ecs::entity_t e) {
 
 void FruitSystem::recieve(const Message &m) {
 	switch (m.id) {
-	case _m_STAR_EATEN:
-		onStarEaten(m.star_eaten_data.e);
+	case _m_FRUIT_EATEN:
+		onStarEaten(m.fruit_eaten_data.e);
 		break;
-	case _m_CREATE_STARS:
+	case _m_CREATE_FRUITS:
 		addFruit();
 		break;
 	default:

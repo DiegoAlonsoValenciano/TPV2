@@ -1,24 +1,25 @@
-﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8004: El directorio Output no termina con una barra diagonal final. Esta instancia de compilación agregará la barra diagonal porque es necesaria para que se pueda evaluar correctamente el directorio Output.
-  Game.cpp
-  NewGameState.cpp
-C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica2\TPV2\TPV2\src\game\NewGameState.cpp(13,10): warning C4244: 'inicializando': conversión de 'int' a 'float'; posible pérdida de datos
-C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica2\TPV2\TPV2\src\game\NewGameState.cpp(14,10): warning C4244: 'inicializando': conversión de 'int' a 'float'; posible pérdida de datos
-C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica2\TPV2\TPV2\src\game\NewGameState.cpp(15,55): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
-C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica2\TPV2\TPV2\src\game\NewGameState.cpp(15,40): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
-C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica2\TPV2\TPV2\src\sdlutils\SDLUtils.h(51,32): warning C4101: 'e': variable local sin referencia
-  (compilando archivo de origen "src/game/NewGameState.cpp")
-  C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica2\TPV2\TPV2\src\sdlutils\SDLUtils.h(51,32):
-  el contexto de creación de instancias de la plantilla (el más antiguo primero) es
-  	C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica2\TPV2\TPV2\src\sdlutils\SDLUtils.h(199,30):
-  	Vea la referencia a la creación de una instancia de clase plantilla "SDLUtils::map_access_wrapper<Texture>" que se está compilando
-  	C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica2\TPV2\TPV2\src\sdlutils\SDLUtils.h(48,13):
-  	al compilar la función del miembro clase plantilla "T &SDLUtils::map_access_wrapper<T>::at(const std::string &)"
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  RenderSystem.cpp
+C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\components\ImageWithFrames.h(9,16): warning C4099: 'Transform': type name first seen using 'struct' now seen using 'class'
+C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\systems\RenderSystem.h(7,8): message : see declaration of 'Transform'
+C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\systems\RenderSystem.cpp(77,4): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\systems\RenderSystem.cpp(76,69): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\systems\RenderSystem.cpp(76,64): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\systems\RenderSystem.cpp(76,43): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  FruitSystem.cpp
+C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\components\Transform.h(8,17): warning C4099: 'Transform': type name first seen using 'class' now seen using 'struct'
+C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\components\Transform.h(8,8): message : see declaration of 'Transform'
+C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\systems\FruitSystem.cpp(54,25): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\systems\FruitSystem.cpp(54,22): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\systems\FruitSystem.cpp(54,44): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\systems\FruitSystem.cpp(54,41): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\sdlutils\SDLUtils.h(51,32): warning C4101: 'e': unreferenced local variable
+C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\sdlutils\SDLUtils.h(48,13): message : while compiling class template member function 'T &SDLUtils::map_access_wrapper<T>::at(const std::string &)'
           with
           [
-              T=Texture
+              T=SoundEffect
           ]
-  		C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica2\TPV2\TPV2\src\game\NewGameState.cpp(11,6):
-  		vea la primera referencia a “SDLUtils::map_access_wrapper<Texture>::at” en “NewGameState::NewGameState”
-  
-  Generando código...
-  TPV2.vcxproj -> C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica2\TPV2\bin\TPV2Debug.exe
+C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\systems\FruitSystem.cpp(73,49): message : see the first reference to 'SDLUtils::map_access_wrapper<SoundEffect>::at' in 'FruitSystem::onStarEaten'
+C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\sdlutils\SDLUtils.h(201,34): message : see reference to class template instantiation 'SDLUtils::map_access_wrapper<SoundEffect>' being compiled
+  Generating Code...
+  TPV2.vcxproj -> C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\bin\TPV2Debug.exe
