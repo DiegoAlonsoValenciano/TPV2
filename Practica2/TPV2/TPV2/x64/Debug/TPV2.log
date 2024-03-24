@@ -1,9 +1,8 @@
-﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
-  RenderSystem.cpp
-C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\components\ImageWithFrames.h(9,16): warning C4099: 'Transform': type name first seen using 'struct' now seen using 'class'
-C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\systems\RenderSystem.h(7,8): message : see declaration of 'Transform'
-C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\systems\RenderSystem.cpp(77,4): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\systems\RenderSystem.cpp(76,69): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\systems\RenderSystem.cpp(76,64): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\systems\RenderSystem.cpp(76,43): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-  TPV2.vcxproj -> C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\bin\TPV2Debug.exe
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8004: El directorio Output no termina con una barra diagonal final. Esta instancia de compilación agregará la barra diagonal porque es necesaria para que se pueda evaluar correctamente el directorio Output.
+  Game.cpp
+  JSON.cpp
+  main.cpp
+  SDLUtils.cpp
+  Vector2D.cpp
+  Generando código...
+  TPV2.vcxproj -> C:\Users\diego\Desktop\Diego\UCM\2º\TPV2\VisualStudio\TPV2\Practica2\TPV2\bin\TPV2Debug.exe

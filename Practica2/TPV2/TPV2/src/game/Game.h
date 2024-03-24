@@ -14,7 +14,6 @@ public:
 	enum State {
 		RUNNING, PAUSED, NEWGAME, NEWROUND, GAMEOVER
 	};
-	Game();
 	virtual ~Game();
 	void init();
 	void start();
