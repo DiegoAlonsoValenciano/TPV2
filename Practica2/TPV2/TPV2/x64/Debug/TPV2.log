@@ -2,16 +2,8 @@
   RenderSystem.cpp
 C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\components\ImageWithFrames.h(9,16): warning C4099: 'Transform': type name first seen using 'struct' now seen using 'class'
 C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\systems\RenderSystem.h(7,8): message : see declaration of 'Transform'
-C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\systems\RenderSystem.cpp(85,4): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\systems\RenderSystem.cpp(84,69): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\systems\RenderSystem.cpp(84,64): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\systems\RenderSystem.cpp(84,43): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\sdlutils\SDLUtils.h(51,32): warning C4101: 'e': unreferenced local variable
-C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\sdlutils\SDLUtils.h(48,13): message : while compiling class template member function 'T &SDLUtils::map_access_wrapper<T>::at(const std::string &)'
-          with
-          [
-              T=Texture
-          ]
-C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\systems\RenderSystem.cpp(53,41): message : see the first reference to 'SDLUtils::map_access_wrapper<Texture>::at' in 'RenderSystem::drawMsgs'
-C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\sdlutils\SDLUtils.h(199,30): message : see reference to class template instantiation 'SDLUtils::map_access_wrapper<Texture>' being compiled
+C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\systems\RenderSystem.cpp(77,4): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\systems\RenderSystem.cpp(76,69): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\systems\RenderSystem.cpp(76,64): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\TPV2\src\systems\RenderSystem.cpp(76,43): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
   TPV2.vcxproj -> C:\Users\jiale\My project (1)\TPV2\Practica2\TPV2\bin\TPV2Debug.exe

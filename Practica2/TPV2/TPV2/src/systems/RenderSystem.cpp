@@ -22,7 +22,6 @@ void RenderSystem::initSystem() {
 }
 
 void RenderSystem::update() {
-	drawMsgs();
 	drawStars();
 	drawPacMan();
 }
@@ -46,12 +45,6 @@ void RenderSystem::drawPacMan() {
 	drawFrame(tr, iwf);
 }
 
-
-void RenderSystem::drawMsgs() {
-
-
-
-}
 
 void RenderSystem::draw(Transform *tr, Texture *tex) {
 	SDL_Rect dest = build_sdlrect(tr->pos_, tr->width_, tr->height_);
