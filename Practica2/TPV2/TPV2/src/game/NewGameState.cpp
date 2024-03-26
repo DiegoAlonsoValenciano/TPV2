@@ -23,6 +23,7 @@ void NewGameState::leave() {
 
 void NewGameState::update() {
 	if (ihdlr.keyDownEvent()) {
+		Game::instance()->setState(Game::NEWROUND);
 	}
 	sdlutils().clearRenderer();
 	msg_.render(dest_);

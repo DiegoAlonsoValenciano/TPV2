@@ -39,6 +39,11 @@ Game::Game() :
 
 Game::~Game() {
 	delete mngr_;
+	delete newgame_state_;
+	delete newround_state_;
+	delete paused_state_;
+	delete runing_state_;
+	delete gameover_state_;
 }
 
 void Game::init() {
@@ -61,6 +66,9 @@ void Game::init() {
 	m.create_fruits_data.n = 5;
 	mngr_->send(m);
 	newgame_state_ = new NewGameState();
+	newround_state_ = new NewRoundState();
+	gameover_state_ = new GameOverState();
+	paused_state_ = new PausedState();
 	current_state_ = newgame_state_;
 }
 
