@@ -19,6 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\components\Miraculous.h" />
+    <ClInclude Include="src\components\Immune.h" />
+    <ClInclude Include="src\systems\ImmunitySystem.h" />
     <ClInclude Include="src\components\Image.h" />
     <ClInclude Include="src\components\ImageWithFrames.h" />
     <ClInclude Include="src\components\Transform.h" />
@@ -67,6 +70,9 @@
     <ClInclude Include="src\utils\Vector2D.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\components\Miraculous.cpp" />
+    <ClCompile Include="src\components\Immune.cpp" />
+    <ClCompile Include="src\systems\ImmunitySystem.cpp" />
     <ClCompile Include="src\components\ImageWithFrames.cpp" />
     <ClCompile Include="src\ecs\Manager.cpp" />
     <ClCompile Include="src\game\Game.cpp" />

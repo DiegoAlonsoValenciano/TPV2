@@ -8,7 +8,10 @@
 	TRANSFORM, \
 	IMAGE, \
 	POINTS,  \
-    IMAGEWITHFRAMES
+    IMAGEWITHFRAMES, \
+    IMMUNE, \
+    MIRACULOUS, \
+	HEALTH
 
 // Groups list - must have at least one element
 //
@@ -29,5 +32,6 @@
 	RENDER, \
 	GAMECTRL, \
 	COLLISIONS, \
-	GHOST 
+	GHOST, \
+    IMMUNITY
 
