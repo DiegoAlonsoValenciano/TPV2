@@ -13,7 +13,7 @@ public:
 	void initSystem() override;
 	void update() override;
 	void addFruit();
-	void onStarEaten(ecs::entity_t e);
+	void onFruitEaten(ecs::entity_t e);
 	void recieve(const Message &m) override;
 private:
 	bool milagroso = false;

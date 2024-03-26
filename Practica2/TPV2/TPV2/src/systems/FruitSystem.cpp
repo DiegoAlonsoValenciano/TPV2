@@ -65,7 +65,7 @@ void FruitSystem::addFruit() {
 	}
 }
 
-void FruitSystem::onStarEaten(ecs::entity_t e) {
+void FruitSystem::onFruitEaten(ecs::entity_t e) {
 	mngr_->setAlive(e, false);
 	currNumOfFruits_--;
 	// play sound on channel 1 (if there is something playing there
@@ -76,7 +76,7 @@ void FruitSystem::onStarEaten(ecs::entity_t e) {
 void FruitSystem::recieve(const Message &m) {
 	switch (m.id) {
 	case _m_FRUIT_EATEN:
-		onStarEaten(m.fruit_eaten_data.e);
+		onFruitEaten(m.fruit_eaten_data.e);
 		break;
 	case _m_CREATE_FRUITS:
 		addFruit();
